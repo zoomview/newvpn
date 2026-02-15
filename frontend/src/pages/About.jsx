@@ -61,6 +61,17 @@ function About() {
         <p style={{ color: 'var(--text-secondary)', lineHeight: '1.8', fontSize: '14px', marginTop: '16px' }}>
           Our reviews remain unbiased - we test and recommend VPNs based on actual performance and features, not commission rates.
         </p>
+        <div style={{ marginTop: '16px', padding: '14px', background: 'rgba(16, 185, 129, 0.1)', borderRadius: '8px', border: '1px solid rgba(16, 185, 129, 0.2)' }}>
+          <p style={{ color: '#10b981', fontWeight: '600', marginBottom: '8px' }}>
+            Self-Purchased Products
+          </p>
+          <p style={{ color: 'var(--text-secondary)', lineHeight: '1.8', fontSize: '14px' }}>
+            All VPN services tested on VPNSpan are <strong>self-purchased</strong>. We do not accept any free accounts, discounts, or benefits from VPN providers that could influence our reviews or test results. Our testing methodology remains completely independent.
+          </p>
+        </div>
+        <p style={{ color: 'var(--text-muted)', fontSize: '13px', marginTop: '20px' }}>
+          Contact: <a href="mailto:contact@vpnspan.com" style={{ color: '#00D4FF' }}>contact@vpnspan.com</a>
+        </p>
       </div>
     </div>
   )

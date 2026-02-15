@@ -37,6 +37,7 @@ function Footer() {
             <Link to="/reviews/expressvpn">ExpressVPN</Link>
             <Link to="/reviews/nordvpn">NordVPN</Link>
             <Link to="/reviews/protonvpn">ProtonVPN</Link>
+            <Link to="/reviews/cyberghost">CyberGhost</Link>
           </div>
           
           <div className="footer-column">
@@ -53,6 +54,12 @@ function Footer() {
         <p>© {currentYear} VPNSpan. All rights reserved.</p>
         <p className="footer-disclaimer">
           VPNSpan is an independent comparison platform. We may earn commissions from VPN services reviewed on this site.
+        </p>
+        <p className="footer-contact">
+          Contact: <a href="mailto:contact@vpnspan.com">contact@vpnspan.com</a>
+        </p>
+        <p className="footer-purchase">
+          All VPN services tested on VPNSpan are self-purchased. We do not accept any payments or benefits from VPN providers that could influence our reviews or test results.
         </p>
       </div>
     </footer>

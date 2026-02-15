@@ -924,6 +924,29 @@ input:focus, select:focus, textarea:focus {
   opacity: 0.8;
 }
 
+.footer-contact {
+  font-size: 13px;
+  margin-top: 12px;
+}
+
+.footer-contact a {
+  color: #00D4FF;
+}
+
+.footer-contact a:hover {
+  text-decoration: underline;
+}
+
+.footer-purchase {
+  font-size: 11px !important;
+  color: #10b981 !important;
+  margin-top: 12px !important;
+  padding: 10px;
+  background: rgba(16, 185, 129, 0.1);
+  border-radius: 6px;
+  border: 1px solid rgba(16, 185, 129, 0.2);
+}
+
 /* Tablet */
 @media (min-width: 768px) {
   .footer-container {

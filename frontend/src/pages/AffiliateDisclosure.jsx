@@ -48,10 +48,17 @@ function AffiliateDisclosure() {
           </p>
         </section>
 
+        <section style={{ marginBottom: '28px', padding: '16px', background: 'rgba(16, 185, 129, 0.1)', borderRadius: '8px', border: '1px solid rgba(16, 185, 129, 0.2)' }}>
+          <h2 style={{ fontSize: '20px', fontWeight: '600', marginBottom: '14px', color: '#10b981' }}>Self-Purchased Products</h2>
+          <p style={{ color: 'var(--text-secondary)', lineHeight: '1.8' }}>
+            <strong>All VPN services tested on VPNSpan are self-purchased.</strong> We do not accept any free accounts, discounts, or benefits from VPN providers that could influence our reviews or test results. Our testing methodology remains completely independent and unbiased.
+          </p>
+        </section>
+
         <section>
           <h2 style={{ fontSize: '20px', fontWeight: '600', marginBottom: '14px' }}>Questions?</h2>
           <p style={{ color: 'var(--text-secondary)', lineHeight: '1.8' }}>
-            If you have any questions about our affiliate relationships or review process, please contact us.
+            If you have any questions about our affiliate relationships or review process, please contact us at <a href="mailto:contact@vpnspan.com" style={{ color: '#00D4FF' }}>contact@vpnspan.com</a>.
           </p>
         </section>
       </div>
