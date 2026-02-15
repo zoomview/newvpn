@@ -34,6 +34,89 @@ export const vpnLogos = {
   }
 }
 
+// Streaming support based on user research - key pain point
+export const vpnStreaming = {
+  expressvpn: {
+    netflix: true,
+    youtube: true,
+    disney: true,
+    hulu: true,
+    bbc: true,
+    rating: 5 // Expert rating for streaming
+  },
+  nordvpn: {
+    netflix: true,
+    youtube: true,
+    disney: true,
+    hulu: true,
+    bbc: true,
+    rating: 5
+  },
+  surfshark: {
+    netflix: true,
+    youtube: true,
+    disney: true,
+    hulu: true,
+    bbc: true,
+    rating: 4
+  },
+  protonvpn: {
+    netflix: true,
+    youtube: true,
+    disney: false,
+    hulu: false,
+    bbc: true,
+    rating: 3 // Limited on free tier
+  },
+  cyberghost: {
+    netflix: true,
+    youtube: true,
+    disney: true,
+    hulu: true,
+    bbc: true,
+    rating: 4 // Has dedicated streaming servers
+  }
+}
+
+// Privacy audit status - key decision factor from research
+export const vpnPrivacy = {
+  expressvpn: {
+    audited: true,
+    auditor: 'PwC',
+    lastAudit: '2024',
+    logs: 'No logs',
+    jurisdiction: 'British Virgin Islands'
+  },
+  nordvpn: {
+    audited: true,
+    auditor: 'Deloitte',
+    lastAudit: '2024',
+    logs: 'No logs',
+    jurisdiction: 'Panama'
+  },
+  surfshark: {
+    audited: true,
+    auditor: 'Deloitte',
+    lastAudit: '2023',
+    logs: 'No logs',
+    jurisdiction: 'Netherlands'
+  },
+  protonvpn: {
+    audited: true,
+    auditor: 'Securitum',
+    lastAudit: '2024',
+    logs: 'No logs',
+    jurisdiction: 'Switzerland'
+  },
+  cyberghost: {
+    audited: true,
+    auditor: 'Deloitte',
+    lastAudit: '2022',
+    logs: 'No logs',
+    jurisdiction: 'Romania'
+  }
+}
+
 // VPN review data with real logos
 export const vpnReviews = {
   expressvpn: {

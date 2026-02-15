@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react'
 import { useParams, Link } from 'react-router-dom'
-import { ArrowLeft, Star, Zap, Clock, Check, X, Shield, Globe, Download, Smartphone, Lock } from 'lucide-react'
+import { ArrowLeft, Star, Zap, Clock, Check, X, Shield, Globe, Download, Smartphone, Lock, Gamepad2, Film, Eye } from 'lucide-react'
 import RelatedSecurityTools from '../components/RelatedSecurityTools'
 
 // VPN reviews data
@@ -43,7 +43,13 @@ const vpnReviews = {
       speed: 95,
       latency: 18,
       status: 'online'
-    }
+    },
+    // Use cases based on user research
+    bestFor: [
+      { icon: 'film', label: 'Streaming', desc: 'Best Netflix & entertainment support' },
+      { icon: 'shield', label: 'Privacy', desc: 'Audited no-logs policy' },
+      { icon: 'globe', label: 'Travel', desc: '94 countries, reliable worldwide' }
+    ]
   },
   nordvpn: {
     id: 'nordvpn',
@@ -83,7 +89,12 @@ const vpnReviews = {
       speed: 88,
       latency: 25,
       status: 'online'
-    }
+    },
+    bestFor: [
+      { icon: 'shield', label: 'Security', desc: 'Advanced threat protection' },
+      { icon: 'film', label: 'Streaming', desc: 'Great Netflix & Disney+ support' },
+      { icon: 'globe', label: 'Servers', desc: '5500+ servers worldwide' }
+    ]
   },
   surfshark: {
     id: 'surfshark',
@@ -123,7 +134,12 @@ const vpnReviews = {
       speed: 75,
       latency: 42,
       status: 'degraded'
-    }
+    },
+    bestFor: [
+      { icon: 'smartphone', label: 'Families', desc: 'Unlimited device connections' },
+      { icon: 'shield', label: 'Budget', desc: 'Best value for money' },
+      { icon: 'film', label: 'Streaming', desc: 'Works with all major platforms' }
+    ]
   },
   protonvpn: {
     id: 'protonvpn',
@@ -164,7 +180,12 @@ const vpnReviews = {
       speed: 65,
       latency: 55,
       status: 'online'
-    }
+    },
+    bestFor: [
+      { icon: 'shield', label: 'Privacy', desc: 'Swiss-based, open-source' },
+      { icon: 'eye', label: 'No Logs', desc: 'Independent security audits' },
+      { icon: 'download', label: 'Free Tier', desc: 'Best free VPN option' }
+    ]
   },
   cyberghost: {
     id: 'cyberghost',
@@ -205,7 +226,12 @@ const vpnReviews = {
       speed: 72,
       latency: 38,
       status: 'online'
-    }
+    },
+    bestFor: [
+      { icon: 'film', label: 'Streaming', desc: 'Dedicated streaming servers' },
+      { icon: 'smartphone', label: 'Beginners', desc: 'Easiest to use' },
+      { icon: 'globe', label: 'Value', desc: '45-day money-back guarantee' }
+    ]
   }
 }
 
@@ -456,6 +482,13 @@ function VPNReview() {
           </div>
         </div>
       </div>
+
+      {/* Best For - Use Cases based on research */}
+      {review.bestFor && (
+        <div className="card" style={{ marginBottom: '24px' }}>
+          <h3 style={{ marginBottom: '20px', fontSize: '18px', fontWeight: '600' }}>Best For</h3>
+        </div>
+      )}
 
       {/* Related Security Tools */}
       <RelatedSecurityTools />
