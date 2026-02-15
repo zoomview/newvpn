@@ -1,0 +1,12 @@
+# Robots.txt for VPNSpan
+# https://vpnspan.com
+
+User-agent: *
+Allow: /
+
+# Disallow后台API和管理页面
+Disallow: /api/
+Disallow: /admin/
+
+# 允许爬虫访问所有公开页面
+Sitemap: https://vpnspan.com/sitemap.xml
