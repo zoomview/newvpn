@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react'
 import { useParams, Link } from 'react-router-dom'
 import { ArrowLeft, Star, Zap, Clock, Check, X, Shield, Globe, Download, Smartphone, Lock } from 'lucide-react'
+import RelatedSecurityTools from '../components/RelatedSecurityTools'
 
 // VPN reviews data
 const vpnReviews = {
@@ -455,6 +456,9 @@ function VPNReview() {
           </div>
         </div>
       </div>
+
+      {/* Related Security Tools */}
+      <RelatedSecurityTools />
     </div>
   )
 }

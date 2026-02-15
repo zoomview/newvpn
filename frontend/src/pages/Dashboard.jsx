@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom'
 import { RefreshCw, Zap, Clock, Server, BarChart3, Wifi, WifiOff } from 'lucide-react'
 import axios from 'axios'
 import { vpnLogos, VPNLogo } from '../data/vpnLogos'
+import SecurityStackWidget from '../components/SecurityStackWidget'
 
 function Dashboard() {
   const [vpnData, setVpnData] = useState([])
@@ -130,6 +131,9 @@ function Dashboard() {
           <div className="stat-value">{avgLatency} <span style={{ fontSize: '14px', color: 'var(--text-muted)' }}>ms</span></div>
         </div>
       </div>
+
+      {/* Security Stack Widget */}
+      <SecurityStackWidget />
 
       {/* Last Updated & Refresh */}
       <div className="refresh-bar">

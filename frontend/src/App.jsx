@@ -3,6 +3,8 @@ import Header from './components/Header'
 import Dashboard from './pages/Dashboard'
 import VPNDetail from './pages/VPNDetail'
 import VPNReview from './pages/VPNReview'
+import PasswordManagerReview from './pages/PasswordManagerReview'
+import AntivirusReview from './pages/AntivirusReview'
 import About from './pages/About'
 import Privacy from './pages/Privacy'
 import Terms from './pages/Terms'
@@ -73,6 +75,8 @@ function App() {
                         <Route path="/" element={<Dashboard />} />
                         <Route path="/vpn/:id" element={<VPNDetail />} />
                         <Route path="/reviews/:id" element={<VPNReview />} />
+                        <Route path="/reviews/password-managers" element={<PasswordManagerReview />} />
+                        <Route path="/reviews/antivirus" element={<AntivirusReview />} />
                         <Route path="/about" element={<About />} />
                         <Route path="/blog" element={<Blog />} />
                         <Route path="/blog/:slug" element={<BlogPost />} />
