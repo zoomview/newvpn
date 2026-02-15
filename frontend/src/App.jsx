@@ -58,9 +58,6 @@ function Footer() {
         <p className="footer-contact">
           Contact: <a href="mailto:contact@vpnspan.com">contact@vpnspan.com</a>
         </p>
-        <p className="footer-purchase">
-          All VPN services tested on VPNSpan are self-purchased. We do not accept any payments or benefits from VPN providers that could influence our reviews or test results.
-        </p>
       </div>
     </footer>
   )
