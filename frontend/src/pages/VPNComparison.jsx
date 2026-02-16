@@ -237,7 +237,7 @@ function VPNComparison() {
         setSelectedVPNs(selectedVPNs.filter(id => id !== vpnId))
       }
     } else {
-      if (selectedVPNs.length < 4) {
+      if (selectedVPNs.length < 5) {
         setSelectedVPNs([...selectedVPNs, vpnId])
       }
     }
@@ -273,7 +273,7 @@ function VPNComparison() {
       {/* VPN Selection */}
       <div className="card" style={{ marginBottom: '24px' }}>
         <h3 style={{ marginBottom: '16px', fontSize: '16px', fontWeight: '600' }}>
-          Select VPNs to Compare (max 4)
+          Select VPNs to Compare (max 5)
         </h3>
         <div style={{ display: 'flex', gap: '12px', flexWrap: 'wrap' }}>
           {allVPNs.map(vpn => (

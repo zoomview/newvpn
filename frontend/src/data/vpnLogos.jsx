@@ -1,36 +1,31 @@
-// VPN Logos - Using official brand colors and simple text logos
+// VPN Logos - Using actual brand logo images
 // Note: This is nominative fair use - we're comparing/reviewing these services
 
 export const vpnLogos = {
   expressvpn: {
     name: 'ExpressVPN',
     color: '#E51E28', // Official ExpressVPN red
-    text: 'EV',
-    gradient: 'linear-gradient(135deg, #E51E28 0%, #C41E3A 100%)'
+    image: '/logos/expressVPN.png'
   },
   nordvpn: {
     name: 'NordVPN', 
     color: '#4687D8', // Official NordVPN blue
-    text: 'N',
-    gradient: 'linear-gradient(135deg, #4687D8 0%, #2E6BB0 100%)'
+    image: '/logos/NordVPN.png'
   },
   surfshark: {
     name: 'Surfshark',
     color: '#23A8F0', // Official Surfshark cyan
-    text: 'S',
-    gradient: 'linear-gradient(135deg, #23A8F0 0%, #0D8BD9 100%)'
+    image: '/logos/Surfshark.jpg'
   },
   protonvpn: {
     name: 'ProtonVPN',
     color: '#6D4AFF', // Official Proton purple
-    text: 'P',
-    gradient: 'linear-gradient(135deg, #6D4AFF 0%, #5B3FD9 100%)'
+    image: '/logos/ProtonVPN.png'
   },
   cyberghost: {
     name: 'CyberGhost',
     color: '#714674', // Official CyberGhost purple
-    text: 'CG',
-    gradient: 'linear-gradient(135deg, #714674 0%, #5A3659 100%)'
+    image: '/logos/CyberGhost.png'
   }
 }
 
@@ -123,7 +118,7 @@ export const vpnReviews = {
     id: 'expressvpn',
     name: 'ExpressVPN',
     tagline: 'The Industry Leader in Speed & Security',
-    logo: 'EV',
+    logo: '/logos/expressVPN.png',
     color: '#E51E28',
     website: 'https://www.expressvpn.com/',
     affiliateLink: 'https://www.expressvpn.com/', // Replace with affiliate link
@@ -156,7 +151,7 @@ export const vpnReviews = {
     id: 'nordvpn',
     name: 'NordVPN',
     tagline: 'Security First with Massive Server Network',
-    logo: 'N',
+    logo: '/logos/NordVPN.png',
     color: '#4687D8',
     website: 'https://nordvpn.com/',
     affiliateLink: 'https://nordvpn.com/',
@@ -189,7 +184,7 @@ export const vpnReviews = {
     id: 'surfshark',
     name: 'Surfshark',
     tagline: 'Unlimited Protection at an Unbeatable Price',
-    logo: 'S',
+    logo: '/logos/Surfshark.jpg',
     color: '#23A8F0',
     website: 'https://surfshark.com/',
     affiliateLink: 'https://surfshark.com/',
@@ -222,7 +217,7 @@ export const vpnReviews = {
     id: 'protonvpn',
     name: 'ProtonVPN',
     tagline: 'Privacy-First VPN from the Makers of ProtonMail',
-    logo: 'P',
+    logo: '/logos/ProtonVPN.png',
     color: '#6D4AFF',
     website: 'https://protonvpn.com/',
     affiliateLink: 'https://protonvpn.com/',
@@ -256,7 +251,7 @@ export const vpnReviews = {
     id: 'cyberghost',
     name: 'CyberGhost',
     tagline: 'User-Friendly VPN Optimized for Streaming',
-    logo: 'CG',
+    logo: '/logos/CyberGhost.png',
     color: '#714674',
     website: 'https://cyberghost.com/',
     affiliateLink: 'https://cyberghost.com/',
@@ -294,21 +289,16 @@ export function VPNLogo({ vpnId, size = 40 }) {
   if (!vpn) return null
   
   return (
-    <div style={{
-      width: `${size}px`,
-      height: `${size}px`,
-      borderRadius: '8px',
-      background: vpn.gradient,
-      display: 'flex',
-      alignItems: 'center',
-      justifyContent: 'center',
-      fontSize: size * 0.35,
-      fontWeight: '700',
-      color: 'white',
-      textShadow: '0 1px 2px rgba(0,0,0,0.2)'
-    }}>
-      {vpn.text}
-    </div>
+    <img 
+      src={vpn.image} 
+      alt={vpn.name}
+      style={{
+        width: `${size}px`,
+        height: `${size}px`,
+        borderRadius: '8px',
+        objectFit: 'contain'
+      }}
+    />
   )
 }
 
