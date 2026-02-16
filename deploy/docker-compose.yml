@@ -1,0 +1,32 @@
+# VPNSpan Docker Compose for Production
+# Usage: docker-compose up -d
+
+services:
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    container_name: vpnspan-backend
+    restart: always
+    environment:
+      - NODE_ENV=production
+      - PORT=5000
+    networks:
+      - vpnspan-network
+
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    container_name: vpnspan-frontend
+    restart: always
+    ports:
+      - "3000:80"
+    depends_on:
+      - backend
+    networks:
+      - vpnspan-network
+
+networks:
+  vpnspan-network:
+    driver: bridge

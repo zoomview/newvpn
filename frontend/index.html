@@ -32,6 +32,92 @@
     <meta name="theme-color" content="#0f172a" />
     
     <title>VPNSpan - Real-time VPN Performance Monitor</title>
+    
+    <!-- JSON-LD Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "WebSite",
+          "name": "VPNSpan",
+          "url": "https://vpnspan.com",
+          "description": "Real-time VPN performance monitoring and comparison platform",
+          "publisher": {
+            "@type": "Organization",
+            "name": "VPNSpan",
+            "url": "https://vpnspan.com"
+          },
+          "potentialAction": {
+            "@type": "SearchAction",
+            "target": "https://vpnspan.com/search?q={search_term_string}",
+            "query-input": "required name=search_term_string"
+          }
+        },
+        {
+          "@type": "Organization",
+          "name": "VPNSpan",
+          "url": "https://vpnspan.com",
+          "logo": "https://vpnspan.com/favicon.svg",
+          "description": "Independent VPN comparison and performance monitoring platform",
+          "sameAs": [
+            "https://twitter.com/vpnspan"
+          ],
+          "contactPoint": {
+            "@type": "ContactPoint",
+            "email": "contact@vpnspan.com",
+            "contactType": "customer service"
+          }
+        },
+        {
+          "@type": "WebPage",
+          "name": "VPN Comparison",
+          "url": "https://vpnspan.com/comparison",
+          "description": "Compare top VPN services by speed, streaming support, and price"
+        },
+        {
+          "@type": "CollectionPage",
+          "name": "VPN Reviews",
+          "url": "https://vpnspan.com/reviews",
+          "description": "In-depth reviews of ExpressVPN, NordVPN, Surfshark, ProtonVPN, and CyberGhost"
+        }
+      ]
+    }
+    </script>
+    
+    <!-- FAQ Schema for Blog Posts -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is the fastest VPN in 2026?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Based on our real-time testing, Surfshark, NordVPN, and ExpressVPN consistently deliver the fastest speeds. Check our live speed tests for real-time data."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Which VPN works best with Netflix?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Our testing shows Surfshark, ExpressVPN, and NordVPN reliably unblock Netflix and other streaming services. Visit our streaming test results for details."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is a free VPN safe to use?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Free VPNs often come with limitations like data caps, slower speeds, and potential privacy concerns. We recommend premium VPNs like Surfshark for better security and performance."
+          }
+        }
+      ]
+    }
+    </script>
   </head>
   <body>
     <div id="root"></div>
