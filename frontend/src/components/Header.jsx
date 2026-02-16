@@ -9,6 +9,8 @@ function Header() {
   
   const navLinks = [
     { path: '/', label: 'Dashboard' },
+    { path: '/find-vpn', label: 'Find VPN' },
+    { path: '/comparison', label: 'Compare' },
     { path: '/blog', label: 'Blog' },
     { path: '/about', label: 'About' },
   ]

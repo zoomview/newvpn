@@ -1,15 +1,32 @@
 import { useState, useEffect } from 'react'
 import { Link } from 'react-router-dom'
-import { RefreshCw, Zap, Clock, Server, BarChart3, Wifi, WifiOff } from 'lucide-react'
+import { RefreshCw, Zap, Clock, Server, BarChart3, Wifi, WifiOff, Film, Shield, Gamepad2 } from 'lucide-react'
 import axios from 'axios'
 import { vpnLogos, VPNLogo } from '../data/vpnLogos'
 import SecurityStackWidget from '../components/SecurityStackWidget'
+
+// Use case categories based on research
+const useCases = {
+  streaming: { icon: Film, label: 'Streaming', color: '#8b5cf6' },
+  privacy: { icon: Shield, label: 'Privacy', color: '#10b981' },
+  gaming: { icon: Gamepad2, label: 'Gaming', color: '#f59e0b' }
+}
+
+// VPN use case mapping (which VPNs are best for which use case)
+const vpnUseCases = {
+  expressvpn: { streaming: true, privacy: true, gaming: true },
+  nordvpn: { streaming: true, privacy: true, gaming: true },
+  surfshark: { streaming: true, privacy: false, gaming: true },
+  protonvpn: { streaming: false, privacy: true, gaming: false },
+  cyberghost: { streaming: true, privacy: false, gaming: false }
+}
 
 function Dashboard() {
   const [vpnData, setVpnData] = useState([])
   const [loading, setLoading] = useState(true)
   const [lastUpdated, setLastUpdated] = useState(null)
   const [refreshing, setRefreshing] = useState(false)
+  const [activeFilter, setActiveFilter] = useState(null)
 
   const fetchData = async () => {
     try {
@@ -45,6 +62,11 @@ function Dashboard() {
     ? Math.round(vpnData.reduce((sum, v) => v.latency > 0 ? sum + v.latency : sum, 0) / vpnData.filter(v => v.latency > 0).length) || 0
     : 0
   const onlineRate = totalVPNs > 0 ? Math.round((onlineVPNs / totalVPNs) * 100) : 0
+
+  // Filter VPNs by use case
+  const filteredVPNs = activeFilter 
+    ? vpnData.filter(vpn => vpnUseCases[vpn.id]?.[activeFilter])
+    : vpnData
 
   const getStatusBadge = (status) => {
     const styles = {
@@ -150,9 +172,56 @@ function Dashboard() {
         </button>
       </div>
 
+      {/* Use Case Filter */}
+      <div style={{ marginBottom: '24px', display: 'flex', gap: '12px', flexWrap: 'wrap' }}>
+        <button
+          onClick={() => setActiveFilter(null)}
+          style={{
+            padding: '8px 16px',
+            borderRadius: '20px',
+            border: 'none',
+            cursor: 'pointer',
+            fontSize: '13px',
+            fontWeight: '500',
+            backgroundColor: activeFilter === null ? 'var(--accent-primary)' : 'var(--bg-tertiary)',
+            color: activeFilter === null ? 'white' : 'var(--text-secondary)',
+            transition: 'all 0.2s'
+          }}
+        >
+          All VPNs
+        </button>
+        {Object.entries(useCases).map(([key, { icon: Icon, label, color }]) => (
+          <button
+            key={key}
+            onClick={() => setActiveFilter(activeFilter === key ? null : key)}
+            style={{
+              padding: '8px 16px',
+              borderRadius: '20px',
+              border: 'none',
+              cursor: 'pointer',
+              fontSize: '13px',
+              fontWeight: '500',
+              backgroundColor: activeFilter === key ? color : 'var(--bg-tertiary)',
+              color: activeFilter === key ? 'white' : 'var(--text-secondary)',
+              display: 'inline-flex',
+              alignItems: 'center',
+              gap: '6px',
+              transition: 'all 0.2s'
+            }}
+          >
+            <Icon size={14} />
+            {label}
+          </button>
+        ))}
+      </div>
+
       {/* VPN Cards - Mobile First Card Layout */}
       <div className="vpn-grid">
-        {vpnData.map((vpn) => {
+        {filteredVPNs.length === 0 ? (
+          <div style={{ gridColumn: '1 / -1', textAlign: 'center', padding: '40px', color: 'var(--text-secondary)' }}>
+            <p>No VPNs match this filter</p>
+          </div>
+        ) : filteredVPNs.map((vpn) => {
           const logo = vpnLogos[vpn.id] || { name: vpn.name, color: '#6b7280', text: vpn.name?.charAt(0) }
           return (
             <div key={vpn.id} className="vpn-card">

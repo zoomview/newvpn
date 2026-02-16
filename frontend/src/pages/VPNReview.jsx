@@ -484,9 +484,37 @@ function VPNReview() {
       </div>
 
       {/* Best For - Use Cases based on research */}
-      {review.bestFor && (
+      {review.bestFor && review.bestFor.length > 0 && (
         <div className="card" style={{ marginBottom: '24px' }}>
           <h3 style={{ marginBottom: '20px', fontSize: '18px', fontWeight: '600' }}>Best For</h3>
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))', gap: '16px' }}>
+            {review.bestFor.map((item, index) => {
+              const iconMap = {
+                film: Film,
+                shield: Shield,
+                globe: Globe,
+                smartphone: Smartphone,
+                eye: Eye,
+                download: Download,
+                gamepad2: Gamepad2
+              }
+              const IconComponent = iconMap[item.icon] || Shield
+              return (
+                <div key={index} style={{
+                  padding: '16px',
+                  backgroundColor: 'var(--bg-tertiary)',
+                  borderRadius: '8px',
+                  borderLeft: `3px solid ${review.color}`
+                }}>
+                  <div style={{ display: 'flex', alignItems: 'center', gap: '10px', marginBottom: '8px' }}>
+                    <IconComponent size={18} style={{ color: review.color }} />
+                    <span style={{ fontWeight: '600', fontSize: '14px' }}>{item.label}</span>
+                  </div>
+                  <p style={{ color: 'var(--text-secondary)', fontSize: '13px', margin: 0 }}>{item.desc}</p>
+                </div>
+              )
+            })}
+          </div>
         </div>
       )}
 

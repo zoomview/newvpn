@@ -3,6 +3,14 @@ import { Clock, ArrowRight } from 'lucide-react'
 
 const blogPosts = [
   {
+    slug: 'vpn-speed-issues-2026',
+    title: 'Why Your VPN Is Slow: Top Causes and Fixes',
+    excerpt: 'Speed issues are the #1 complaint among VPN users. We analyze the most common causes of VPN slowdowns and provide actionable solutions.',
+    date: '2026-02-15',
+    readTime: '7 min read',
+    category: 'Troubleshooting'
+  },
+  {
     slug: 'best-vpn-2026',
     title: 'Best VPNs in 2026: Our Top Picks',
     excerpt: 'After months of testing, we\'ve compiled the definitive list of the best VPNs for speed, security, and streaming.',

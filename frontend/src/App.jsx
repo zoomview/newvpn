@@ -5,6 +5,7 @@ import VPNDetail from './pages/VPNDetail'
 import VPNReview from './pages/VPNReview'
 import PasswordManagerReview from './pages/PasswordManagerReview'
 import AntivirusReview from './pages/AntivirusReview'
+import PrivacyBrowserReview from './pages/PrivacyBrowserReview'
 import About from './pages/About'
 import Privacy from './pages/Privacy'
 import Terms from './pages/Terms'
@@ -12,7 +13,10 @@ import Blog from './pages/Blog'
 import BlogPost from './pages/BlogPost'
 import CookiePolicy from './pages/CookiePolicy'
 import AffiliateDisclosure from './pages/AffiliateDisclosure'
+import VPNComparison from './pages/VPNComparison'
+import ScenarioMatch from './pages/ScenarioMatch'
 import NotFound from './pages/NotFound'
+// import { I18nProvider } from './i18n/index.jsx'  // TODO: Enable for future multi-language support
 
 function Footer() {
   const currentYear = new Date().getFullYear()
@@ -29,6 +33,7 @@ function Footer() {
           <div className="footer-column">
             <h4>Navigation</h4>
             <Link to="/">Dashboard</Link>
+            <Link to="/comparison">Compare</Link>
             <Link to="/blog">Blog</Link>
             <Link to="/about">About</Link>
           </div>
@@ -72,22 +77,25 @@ function App() {
                 <Header />
                 <main style={{ flex: 1 }}>
                     <Routes>
-                        <Route path="/" element={<Dashboard />} />
-                        <Route path="/vpn/:id" element={<VPNDetail />} />
-                        <Route path="/reviews/:id" element={<VPNReview />} />
-                        <Route path="/reviews/password-managers" element={<PasswordManagerReview />} />
-                        <Route path="/reviews/antivirus" element={<AntivirusReview />} />
-                        <Route path="/about" element={<About />} />
-                        <Route path="/blog" element={<Blog />} />
-                        <Route path="/blog/:slug" element={<BlogPost />} />
-                        <Route path="/privacy" element={<Privacy />} />
-                        <Route path="/terms" element={<Terms />} />
-                        <Route path="/cookie-policy" element={<CookiePolicy />} />
-                        <Route path="/affiliate-disclosure" element={<AffiliateDisclosure />} />
-                        <Route path="*" element={<NotFound />} />
-                    </Routes>
-                </main>
-                <Footer />
+                    <Route path="/" element={<Dashboard />} />
+                    <Route path="/vpn/:id" element={<VPNDetail />} />
+                    <Route path="/reviews/:id" element={<VPNReview />} />
+                    <Route path="/reviews/password-managers" element={<PasswordManagerReview />} />
+                    <Route path="/reviews/antivirus" element={<AntivirusReview />} />
+                    <Route path="/reviews/privacy-browsers" element={<PrivacyBrowserReview />} />
+                    <Route path="/about" element={<About />} />
+                    <Route path="/blog" element={<Blog />} />
+                    <Route path="/blog/:slug" element={<BlogPost />} />
+                    <Route path="/privacy" element={<Privacy />} />
+                    <Route path="/terms" element={<Terms />} />
+                    <Route path="/cookie-policy" element={<CookiePolicy />} />
+                    <Route path="/affiliate-disclosure" element={<AffiliateDisclosure />} />
+                    <Route path="/comparison" element={<VPNComparison />} />
+                    <Route path="/find-vpn" element={<ScenarioMatch />} />
+                    <Route path="*" element={<NotFound />} />
+                </Routes>
+            </main>
+            <Footer />
             </div>
         </Router>
     )
