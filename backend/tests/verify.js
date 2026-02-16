@@ -331,6 +331,81 @@ function testPhase3FrontendData() {
 }
 
 // ============================================
+// SERVER STATUS API TESTS
+// ============================================
+
+async function testServerStatusAPI() {
+    console.log('\n========================================');
+    console.log('SERVER STATUS API TESTS');
+    console.log('========================================\n');
+    
+    let passed = 0;
+    let failed = 0;
+    
+    // Test 1: Surfshark - Real Data
+    const surfshark = await httpGet('/api/vpn/servers/surfshark');
+    const surfsharkOk = surfshark.status === 200 && 
+                        surfshark.data.dataSource === 'real' &&
+                        surfshark.data.totalServers > 0;
+    if (test('Surfshark - Returns real data', surfsharkOk, 
+        `status=${surfshark.status}, dataSource=${surfshark.data?.dataSource}`)) passed++; else failed++;
+    
+    if (surfsharkOk) {
+        const hasTotal = typeof surfshark.data.totalServers === 'number';
+        const hasCountries = typeof surfshark.data.countries === 'number';
+        const hasList = Array.isArray(surfshark.data.serversByCountry);
+        if (test('Surfshark - Data structure complete', hasTotal && hasCountries && hasList)) passed++; else failed++;
+        
+        const serversReasonable = surfshark.data.totalServers > 0 && surfshark.data.totalServers < 10000;
+        const countriesReasonable = surfshark.data.countries > 0 && surfshark.data.countries < 200;
+        if (test('Surfshark - Values reasonable', serversReasonable && countriesReasonable)) passed++; else failed++;
+        
+        const firstCountry = surfshark.data.serversByCountry[0];
+        const countryFields = firstCountry && 
+                            typeof firstCountry.country === 'string' &&
+                            typeof firstCountry.servers === 'number' &&
+                            typeof firstCountry.load === 'number';
+        if (test('Surfshark - Country fields complete', countryFields)) passed++; else failed++;
+        
+        const loadValid = firstCountry && firstCountry.load >= 0 && firstCountry.load <= 100;
+        if (test('Surfshark - Load valid (0-100)', loadValid)) passed++; else failed++;
+    }
+    
+    // Test 2: ExpressVPN - Mock Data
+    const expressvpn = await httpGet('/api/vpn/servers/expressvpn');
+    const expressOk = expressvpn.status === 200 && expressvpn.data.dataSource === 'estimated';
+    if (test('ExpressVPN - Returns estimated data', expressOk,
+        `status=${expressvpn.status}, dataSource=${expressvpn.data?.dataSource}`)) passed++; else failed++;
+    
+    // Test 3: NordVPN - Mock Data
+    const nordvpn = await httpGet('/api/vpn/servers/nordvpn');
+    const nordOk = nordvpn.status === 200 && nordvpn.data.dataSource === 'estimated';
+    if (test('NordVPN - Returns estimated data', nordOk)) passed++; else failed++;
+    
+    // Test 4: ProtonVPN - Mock Data
+    const protonvpn = await httpGet('/api/vpn/servers/protonvpn');
+    const protonOk = protonvpn.status === 200 && protonvpn.data.dataSource === 'estimated';
+    if (test('ProtonVPN - Returns estimated data', protonOk)) passed++; else failed++;
+    
+    // Test 5: CyberGhost - Mock Data
+    const cyberghost = await httpGet('/api/vpn/servers/cyberghost');
+    const cyberOk = cyberghost.status === 200 && cyberghost.data.dataSource === 'estimated';
+    if (test('CyberGhost - Returns estimated data', cyberOk)) passed++; else failed++;
+    
+    // Test 6: All VPNs have dataSource
+    const allHaveSource = [surfshark, expressvpn, nordvpn, protonvpn, cyberghost].every(
+        r => r.status === 200 && r.data.dataSource
+    );
+    if (test('All VPNs - Have dataSource field', allHaveSource)) passed++; else failed++;
+    
+    // Test 7: Invalid VPN ID
+    const invalid = await httpGet('/api/vpn/servers/invalid123');
+    if (test('Invalid VPN ID - Returns 400 error', invalid.status === 400)) passed++; else failed++;
+    
+    return { passed, failed };
+}
+
+// ============================================
 // MAIN
 // ============================================
 
@@ -343,9 +418,10 @@ async function main() {
     const securityResults = await testSecurity();
     const dataResults = testDataFiles();
     const phase3Results = testPhase3FrontendData();
+    const serverStatusResults = await testServerStatusAPI();
     
-    const totalPassed = apiResults.passed + securityResults.passed + dataResults.passed + phase3Results.passed;
-    const totalFailed = apiResults.failed + securityResults.failed + dataResults.failed + phase3Results.failed;
+    const totalPassed = apiResults.passed + securityResults.passed + dataResults.passed + phase3Results.passed + serverStatusResults.passed;
+    const totalFailed = apiResults.failed + securityResults.failed + dataResults.failed + phase3Results.failed + serverStatusResults.failed;
     const total = totalPassed + totalFailed;
     
     console.log('\n========================================');
@@ -355,6 +431,7 @@ async function main() {
     console.log(`Security Tests:   ${securityResults.passed}/${securityResults.passed + securityResults.failed} passed`);
     console.log(`Data Tests:      ${dataResults.passed}/${dataResults.passed + dataResults.failed} passed`);
     console.log(`Phase 3 Tests:   ${phase3Results.passed}/${phase3Results.passed + phase3Results.failed} passed`);
+    console.log(`Server Status:   ${serverStatusResults.passed}/${serverStatusResults.passed + serverStatusResults.failed} passed`);
     console.log('----------------------------------------');
     console.log(`TOTAL:           ${totalPassed}/${total} passed`);
     

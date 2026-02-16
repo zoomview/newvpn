@@ -5,6 +5,7 @@ import {
 } from 'recharts'
 import { ArrowLeft, Zap, Clock, Server, Activity, Check, X, Globe } from 'lucide-react'
 import axios from 'axios'
+import ServerStatusCard from '../components/ServerStatusCard'
 
 const vpnInfo = {
   expressvpn: { name: 'ExpressVPN', color: '#c5283d' },
@@ -223,6 +224,15 @@ function VPNDetail() {
             </LineChart>
           </ResponsiveContainer>
         </div>
+      </div>
+
+      {/* Server Locations */}
+      <div style={{ marginBottom: '32px' }}>
+        <h3 style={{ marginBottom: '16px', fontSize: '18px', fontWeight: '600' }}>
+          <Server size={20} style={{ marginRight: '8px', verticalAlign: 'middle' }} />
+          Server Locations
+        </h3>
+        <ServerStatusCard vpnId={id} />
       </div>
 
       {/* Additional Info */}
