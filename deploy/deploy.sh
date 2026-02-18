@@ -1,12 +1,17 @@
 #!/bin/bash
 
 # VPNSpan Deployment Script for DigitalOcean
-# Usage: ./deploy.sh [production|restart|logs]
+# Usage: Run this script from the project root (/var/www/vpnspan)
+# Or specify the project directory as first argument
 
 set -e
 
 PROJECT_NAME="vpnspan"
-PROJECT_DIR="/var/www/$PROJECT_NAME"
+# Get the directory where this script is located
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+PROJECT_DIR="$(dirname "$SCRIPT_DIR")"
+
+PROJECT_DIR="${1:-$PROJECT_DIR}"
 BACKEND_DIR="$PROJECT_DIR/backend"
 FRONTEND_DIR="$PROJECT_DIR/frontend"
 
@@ -69,20 +74,28 @@ setup_directory() {
 deploy_frontend() {
     log_info "Building and deploying frontend..."
     
-    # Copy frontend build files (assuming already built locally)
-    # In production, you would build locally and upload
-    if [ -d "../frontend/dist" ]; then
-        cp -r ../frontend/dist/* $FRONTEND_DIR/
-        log_info "Frontend deployed successfully"
-    else
-        log_warn "Frontend build not found. Building..."
-        cd ../frontend
-        npm install
-        npm run build
-        cp -r dist/* $FRONTEND_DIR/
-        cd -
-        log_info "Frontend built and deployed"
+    # Check if frontend directory exists
+    if [ ! -d "$FRONTEND_DIR" ]; then
+        log_error "Frontend directory not found: $FRONTEND_DIR"
+        return 1
     fi
+    
+    cd "$FRONTEND_DIR"
+    
+    # Install dependencies and build
+    npm install
+    npm run build
+    
+    # Copy build files to frontend root (NOT to dist subdirectory)
+    log_info "Copying build files..."
+    rm -f "$FRONTEND_DIR/index.html"
+    rm -rf "$FRONTEND_DIR/assets"
+    cp -f dist/index.html "$FRONTEND_DIR/"
+    cp -r dist/assets "$FRONTEND_DIR/"
+    
+    cd - > /dev/null
+    
+    log_info "Frontend deployed successfully"
 }
 
 deploy_backend() {
