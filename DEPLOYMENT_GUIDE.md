@@ -412,15 +412,148 @@ sudo certbot renew
 
 ---
 
-## Quick Reference
+## 快速部署命令（推荐）
 
-| Action | Command |
-|--------|---------|
-| Restart backend | `pm2 restart vpnspan-backend` |
-| View logs | `pm2 logs vpnspan-backend` |
-| Restart nginx | `sudo systemctl restart nginx` |
-| Check status | `pm2 status && sudo systemctl status nginx` |
-| Update code | `git pull && pm2 restart vpnspan-backend` |
+```bash
+# 每次更新部署时运行这些命令
+cd /var/www/vpnspan/frontend
+
+# 安装依赖（仅首次或依赖变更时）
+npm install
+
+# 构建
+npm run build
+
+# 清理旧文件（重要！必须先删除再复制）
+rm -f index.html
+rm -rf assets
+
+# 复制到当前目录
+cp dist/index.html ./
+cp -r dist/assets ./
+
+# 重启服务
+systemctl restart nginx
+```
+
+---
+
+## 完整初始化部署（服务器从零开始）
+
+```bash
+# 1. 安装基础软件
+curl -fsSL https://deb.nodesource.com/setup_18.x | bash -
+apt install -y nodejs nginx certbot python3-certbot-nginx
+npm install -g pm2
+
+# 2. 克隆项目
+cd /var/www
+git clone https://github.com/your-repo/vpnspan.git
+
+# 3. 部署后端
+cd /var/www/vpnspan/backend
+npm install
+pm2 start server.js --name vpnspan-backend
+pm2 save
+
+# 4. 部署前端（使用上面的快速部署命令）
+cd ../frontend
+# ... 执行快速部署命令
+
+# 5. 配置Nginx和SSL
+certbot --nginx -d vpnspan.com -d www.vpnspan.com --non-interactive --agree-tos --email admin@vpnspan.com
+```
+
+---
+
+## 部署常见错误总结
+
+### ❌ 错误1: 复制文件到错误目录
+
+**错误命令:**
+```bash
+cp dist/index.html ../  # 错误！复制到了 /var/www/vpnspan/
+```
+
+**正确命令:**
+```bash
+cd /var/www/vpnspan/frontend
+cp dist/index.html ./   # 正确！复制到当前目录
+```
+
+**原因:** Nginx配置的root是 `/var/www/vpnspan/frontend`，所以index.html必须在frontend目录下。
+
+---
+
+### ❌ 错误2: 使用git checkout恢复index.html
+
+**问题:** 开发版本的index.html引用 `/src/main.jsx`，而生产版本应该引用 `/assets/index-xxx.js`。
+
+**不要运行:**
+```bash
+git checkout index.html  # 这会恢复开发版本，导致页面白屏
+```
+
+---
+
+### ❌ 错误3: 跳过构建步骤
+
+**必须运行:**
+```bash
+npm run build  # 生成正确的生产版本
+```
+
+---
+
+### ❌ 错误4: 步骤顺序错误
+
+**正确顺序:**
+```bash
+cd /var/www/vpnspan/frontend
+
+# 1. 安装依赖（首次部署或更新依赖后）
+npm install
+
+# 2. 构建生产版本
+npm run build
+
+# 3. 删除旧文件（重要！）
+rm -f index.html
+rm -rf assets
+
+# 4. 复制新构建的文件到当前目录
+cp dist/index.html ./
+cp -r dist/assets ./
+
+# 5. 重启nginx
+systemctl restart nginx
+```
+
+---
+
+### ❌ 错误5: 混淆了构建目录和部署目录
+
+| 目录 | 用途 |
+|------|------|
+| `/var/www/vpnspan/frontend/dist/` | 构建输出目录（不需要上传到服务器）|
+| `/var/www/vpnspan/frontend/index.html` | Nginx读取的入口文件（需要上传）|
+| `/var/www/vpnspan/frontend/assets/` | 静态资源目录（需要上传）|
+
+---
+
+## 快速部署命令（永远使用这个）
+
+```bash
+# 前端部署
+cd /var/www/vpnspan/frontend
+npm install
+npm run build
+rm -f index.html
+rm -rf assets
+cp dist/index.html ./
+cp -r dist/assets ./
+systemctl restart nginx
+```
 
 ---
 
