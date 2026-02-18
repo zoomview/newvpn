@@ -1,6 +1,8 @@
 import { useState, useEffect } from 'react'
 import { useParams, Link } from 'react-router-dom'
+import { Helmet } from 'react-helmet-async'
 import { ArrowLeft, Star, Zap, Clock, Check, X, Shield, Globe, Download, Smartphone, Lock, Gamepad2, Film, Eye, BarChart3 } from 'lucide-react'
+import { vpnLogos, VPNLogo } from '../data/vpnLogos'
 import RelatedSecurityTools from '../components/RelatedSecurityTools'
 
 // VPN reviews data
@@ -276,7 +278,19 @@ function VPNReview() {
   }
 
   return (
-    <div className="container" style={{ padding: '32px 24px' }}>
+    <>
+      {review && (
+        <Helmet>
+          <title>{review.name} Review {review.rating}/5 - VPNSpan</title>
+          <meta name="description" content={`${review.name} review: ${review.description.substring(0, 150)}... Expert analysis of speed, streaming support, security features, pricing, and more.`} />
+          <meta name="keywords" content={`${review.name} review, ${review.name} speed test, ${review.name} streaming, best VPN 2026, ${review.name} vs ExpressVPN, ${review.name} vs NordVPN`} />
+          <meta property="og:title" content={`${review.name} Review ${review.rating}/5 - VPNSpan`} />
+          <meta property="og:description" content={review.description.substring(0, 150)} />
+          <meta property="og:url" content={`https://vpnspan.com/reviews/${id}`} />
+          <link rel="canonical" href={`https://vpnspan.com/reviews/${id}`} />
+        </Helmet>
+      )}
+      <div className="container" style={{ padding: '32px 24px' }}>
       {/* Back Button */}
       <Link 
         to="/" 
@@ -299,22 +313,7 @@ function VPNReview() {
         borderColor: review.color
       }}>
         <div style={{ display: 'flex', alignItems: 'center', gap: '24px', marginBottom: '24px' }}>
-          <div 
-            style={{
-              width: '80px',
-              height: '80px',
-              borderRadius: '16px',
-              backgroundColor: review.color,
-              display: 'flex',
-              alignItems: 'center',
-              justifyContent: 'center',
-              fontSize: '32px',
-              fontWeight: '700',
-              color: 'white'
-            }}
-          >
-            {review.logo}
-          </div>
+          <VPNLogo vpnId={id} size={80} />
           <div>
             <h1 style={{ fontSize: '32px', fontWeight: '700', marginBottom: '4px' }}>{review.name}</h1>
             <p style={{ color: 'var(--text-secondary)', fontSize: '16px' }}>{review.tagline}</p>
@@ -529,6 +528,7 @@ function VPNReview() {
         </Link>
       </div>
     </div>
+    </>
   )
 }
 

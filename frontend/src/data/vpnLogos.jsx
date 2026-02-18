@@ -5,27 +5,32 @@ export const vpnLogos = {
   expressvpn: {
     name: 'ExpressVPN',
     color: '#E51E28', // Official ExpressVPN red
-    image: '/logos/expressVPN.png'
+    image: '/logos/expressVPN.png',
+    affiliateLink: 'https://www.expressvpn.com'
   },
   nordvpn: {
     name: 'NordVPN', 
     color: '#4687D8', // Official NordVPN blue
-    image: '/logos/NordVPN.png'
+    image: '/logos/NordVPN.png',
+    affiliateLink: 'https://nordvpn.com'
   },
   surfshark: {
     name: 'Surfshark',
     color: '#23A8F0', // Official Surfshark cyan
-    image: '/logos/Surfshark.jpg'
+    image: '/logos/Surfshark.jpg',
+    affiliateLink: 'https://surfshark.com'
   },
   protonvpn: {
     name: 'ProtonVPN',
     color: '#6D4AFF', // Official Proton purple
-    image: '/logos/ProtonVPN.png'
+    image: '/logos/ProtonVPN.png',
+    affiliateLink: 'https://protonvpn.com'
   },
   cyberghost: {
     name: 'CyberGhost',
     color: '#714674', // Official CyberGhost purple
-    image: '/logos/CyberGhost.png'
+    image: '/logos/CyberGhost.png',
+    affiliateLink: 'https://www.cyberghostvpn.com'
   }
 }
 
@@ -121,7 +126,7 @@ export const vpnReviews = {
     logo: '/logos/expressVPN.png',
     color: '#E51E28',
     website: 'https://www.expressvpn.com/',
-    affiliateLink: 'https://www.expressvpn.com/', // Replace with affiliate link
+    affiliateLink: 'https://www.expressvpn.com',
     rating: 4.9,
     description: 'ExpressVPN is widely considered the best VPN service in the world. With blazing fast speeds, military-grade encryption, and an intuitive interface, it sets the standard for what a VPN should be.',
     pros: [
@@ -154,7 +159,7 @@ export const vpnReviews = {
     logo: '/logos/NordVPN.png',
     color: '#4687D8',
     website: 'https://nordvpn.com/',
-    affiliateLink: 'https://nordvpn.com/',
+    affiliateLink: 'https://nordvpn.com',
     rating: 4.7,
     description: 'NordVPN offers the largest server network in the industry with advanced security features including Double VPN, Onion over VPN, and CyberShield. Perfect for security-conscious users.',
     pros: [
@@ -187,7 +192,7 @@ export const vpnReviews = {
     logo: '/logos/Surfshark.jpg',
     color: '#23A8F0',
     website: 'https://surfshark.com/',
-    affiliateLink: 'https://surfshark.com/',
+    affiliateLink: 'https://surfshark.com',
     rating: 4.5,
     description: 'Surfshark offers unlimited device connections with excellent features at a fraction of the cost of competitors. CleanWeb, Whitelister, and MultiHop make it a powerful choice for budget-conscious users.',
     pros: [
@@ -220,7 +225,7 @@ export const vpnReviews = {
     logo: '/logos/ProtonVPN.png',
     color: '#6D4AFF',
     website: 'https://protonvpn.com/',
-    affiliateLink: 'https://protonvpn.com/',
+    affiliateLink: 'https://protonvpn.com',
     rating: 4.4,
     description: 'ProtonVPN comes from the same Swiss-based team behind ProtonMail. With a strong focus on privacy, open-source apps, and a free tier, it\'s ideal for privacy enthusiasts.',
     pros: [
@@ -254,7 +259,7 @@ export const vpnReviews = {
     logo: '/logos/CyberGhost.png',
     color: '#714674',
     website: 'https://cyberghost.com/',
-    affiliateLink: 'https://cyberghost.com/',
+    affiliateLink: 'https://www.cyberghostvpn.com',
     rating: 4.3,
     description: 'CyberGhost is a beginner-friendly VPN with dedicated streaming servers optimized for Netflix, Disney+, and other popular services. It offers great value with an intuitive interface.',
     pros: [

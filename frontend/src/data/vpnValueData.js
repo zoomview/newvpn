@@ -7,7 +7,7 @@ export const vpnValueData = {
     id: 'expressvpn',
     name: 'ExpressVPN',
     officialWebsite: 'https://www.expressvpn.com',
-    affiliateLink: 'https://www.expressvpn.com', // Replace with actual affiliate link
+    affiliateLink: 'https://www.expressvpn.com',
     lastSync: '2026-02-15',
     
     // Pricing data - can be synced from official website
@@ -228,8 +228,8 @@ export const vpnValueData = {
   cyberghost: {
     id: 'cyberghost',
     name: 'CyberGhost',
-    officialWebsite: 'https://cyberghost.com',
-    affiliateLink: 'https://cyberghost.com',
+    officialWebsite: 'https://www.cyberghostvpn.com',
+    affiliateLink: 'https://www.cyberghostvpn.com',
     lastSync: '2026-02-15',
     
     pricing: {

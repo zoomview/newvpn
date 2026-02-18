@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react'
 import { Link } from 'react-router-dom'
+import { Helmet } from 'react-helmet-async'
 import { RefreshCw, Zap, Clock, Server, BarChart3, Wifi, WifiOff, Film, Shield, Gamepad2, ExternalLink } from 'lucide-react'
 import axios from 'axios'
 import { vpnLogos, VPNLogo } from '../data/vpnLogos'
@@ -115,7 +116,17 @@ function Dashboard() {
   }
 
   return (
-    <div className="container dashboard-container">
+    <>
+      <Helmet>
+        <title>VPNSpan - Real-time VPN Performance Dashboard</title>
+        <meta name="description" content="Live VPN speed testing and performance monitoring. Compare ExpressVPN, NordVPN, Surfshark, ProtonVPN, and CyberGhost. Real-time data for streaming, gaming, and privacy." />
+        <meta name="keywords" content="VPN speed test, VPN performance, real-time VPN monitoring, ExpressVPN speed, NordVPN speed, Surfshark speed, VPN comparison, streaming VPN, gaming VPN" />
+        <meta property="og:title" content="VPNSpan - Real-time VPN Performance Dashboard" />
+        <meta property="og:description" content="Live VPN speed testing and performance monitoring. Compare top VPN services with real-time data." />
+        <meta property="og:url" content="https://vpnspan.com/" />
+        <link rel="canonical" href="https://vpnspan.com/" />
+      </Helmet>
+      <div className="container dashboard-container">
       {/* Page Header */}
       <div className="page-header">
         <h1 className="page-title">VPN Performance Dashboard</h1>
@@ -303,6 +314,7 @@ function Dashboard() {
       {/* Security Stack Widget - Below VPN Cards */}
       <SecurityStackWidget />
     </div>
+    </>
   )
 }
 

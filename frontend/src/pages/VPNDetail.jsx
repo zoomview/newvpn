@@ -1,11 +1,13 @@
 import { useState, useEffect } from 'react'
 import { useParams, Link } from 'react-router-dom'
+import { Helmet } from 'react-helmet-async'
 import { 
   LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, Legend 
 } from 'recharts'
 import { ArrowLeft, Zap, Clock, Server, Activity, Check, X, Globe } from 'lucide-react'
 import axios from 'axios'
 import ServerStatusCard from '../components/ServerStatusCard'
+import { vpnLogos, VPNLogo } from '../data/vpnLogos'
 
 const vpnInfo = {
   expressvpn: { name: 'ExpressVPN', color: '#c5283d' },
@@ -87,7 +89,17 @@ function VPNDetail() {
   const info = vpnInfo[id] || { name: data.name, color: '#6b7280' }
 
   return (
-    <div className="container" style={{ padding: '32px 24px' }}>
+    <>
+      <Helmet>
+        <title>{info.name} Performance Data - Speed, Latency & Server Status | VPNSpan</title>
+        <meta name="description" content={`${info.name} real-time performance data: ${data.currentStats.speed} Mbps speed, ${data.currentStats.latency}ms latency, ${data.nodes.online}/${data.nodes.total} servers online. Live monitoring and historical data.`} />
+        <meta name="keywords" content={`${info.name} speed test, ${info.name} latency, ${info.name} servers, ${info.name} performance, VPN data, streaming support`} />
+        <meta property="og:title" content={`${info.name} Performance Data - VPNSpan`} />
+        <meta property="og:description" content={`${info.name} real-time performance: ${data.currentStats.speed} Mbps, ${data.currentStats.latency}ms latency`} />
+        <meta property="og:url" content={`https://vpnspan.com/vpn/${id}`} />
+        <link rel="canonical" href={`https://vpnspan.com/vpn/${id}`} />
+      </Helmet>
+      <div className="container" style={{ padding: '32px 24px' }}>
       {/* Back Button */}
       <Link 
         to="/" 
@@ -110,17 +122,7 @@ function VPNDetail() {
         gap: '16px',
         marginBottom: '32px' 
       }}>
-        <div 
-          className="vpn-logo"
-          style={{ 
-            backgroundColor: info.color,
-            width: '56px',
-            height: '56px',
-            fontSize: '20px'
-          }}
-        >
-          {info.name.charAt(0)}
-        </div>
+        <VPNLogo vpnId={id} size={56} />
         <div>
           <h1 className="page-title" style={{ marginBottom: '4px' }}>{info.name}</h1>
           {getStatusBadge(data.currentStats.status)}
@@ -318,6 +320,7 @@ function VPNDetail() {
         </Link>
       </div>
     </div>
+    </>
   )
 }
 
