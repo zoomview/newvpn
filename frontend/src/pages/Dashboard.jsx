@@ -154,9 +154,6 @@ function Dashboard() {
         </div>
       </div>
 
-      {/* Security Stack Widget */}
-      <SecurityStackWidget />
-
       {/* Last Updated & Refresh */}
       <div className="refresh-bar">
         <p style={{ color: 'var(--text-muted)', fontSize: '13px' }}>
@@ -292,6 +289,9 @@ function Dashboard() {
           )
         })}
       </div>
+
+      {/* Security Stack Widget - Below VPN Cards */}
+      <SecurityStackWidget />
     </div>
   )
 }
