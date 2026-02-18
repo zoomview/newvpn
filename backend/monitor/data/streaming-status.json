@@ -1,0 +1,248 @@
+[
+  {
+    "vpnId": "expressvpn",
+    "timestamp": "2026-02-17T14:00:27.768Z",
+    "services": {
+      "netflix": {
+        "name": "Netflix",
+        "accessible": true,
+        "method": "known-capability",
+        "servers": [
+          "us-west",
+          "us-east",
+          "uk",
+          "jp"
+        ]
+      },
+      "youtube": {
+        "name": "YouTube",
+        "accessible": true,
+        "method": "known-capability",
+        "servers": [
+          "any"
+        ]
+      },
+      "disney": {
+        "name": "Disney+",
+        "accessible": true,
+        "method": "known-capability",
+        "servers": [
+          "us",
+          "ca",
+          "uk"
+        ]
+      },
+      "hulu": {
+        "name": "Hulu",
+        "accessible": true,
+        "method": "known-capability",
+        "servers": [
+          "us-west",
+          "us-east"
+        ]
+      },
+      "bbc": {
+        "name": "BBC iPlayer",
+        "accessible": true,
+        "method": "known-capability",
+        "servers": [
+          "uk"
+        ]
+      }
+    }
+  },
+  {
+    "vpnId": "nordvpn",
+    "timestamp": "2026-02-17T14:00:27.773Z",
+    "services": {
+      "netflix": {
+        "name": "Netflix",
+        "accessible": true,
+        "method": "known-capability",
+        "servers": [
+          "us",
+          "uk",
+          "jp",
+          "ca"
+        ]
+      },
+      "youtube": {
+        "name": "YouTube",
+        "accessible": true,
+        "method": "known-capability",
+        "servers": [
+          "any"
+        ]
+      },
+      "disney": {
+        "name": "Disney+",
+        "accessible": true,
+        "method": "known-capability",
+        "servers": [
+          "us",
+          "ca"
+        ]
+      },
+      "hulu": {
+        "name": "Hulu",
+        "accessible": true,
+        "method": "known-capability",
+        "servers": [
+          "us"
+        ]
+      },
+      "bbc": {
+        "name": "BBC iPlayer",
+        "accessible": true,
+        "method": "known-capability",
+        "servers": [
+          "uk"
+        ]
+      }
+    }
+  },
+  {
+    "vpnId": "surfshark",
+    "timestamp": "2026-02-17T14:00:27.773Z",
+    "services": {
+      "netflix": {
+        "name": "Netflix",
+        "accessible": true,
+        "method": "known-capability",
+        "servers": [
+          "us",
+          "uk",
+          "jp",
+          "kr"
+        ]
+      },
+      "youtube": {
+        "name": "YouTube",
+        "accessible": true,
+        "method": "known-capability",
+        "servers": [
+          "any"
+        ]
+      },
+      "disney": {
+        "name": "Disney+",
+        "accessible": true,
+        "method": "known-capability",
+        "servers": [
+          "us",
+          "uk"
+        ]
+      },
+      "hulu": {
+        "name": "Hulu",
+        "accessible": true,
+        "method": "known-capability",
+        "servers": [
+          "us"
+        ]
+      },
+      "bbc": {
+        "name": "BBC iPlayer",
+        "accessible": true,
+        "method": "known-capability",
+        "servers": [
+          "uk"
+        ]
+      }
+    }
+  },
+  {
+    "vpnId": "protonvpn",
+    "timestamp": "2026-02-17T14:00:27.773Z",
+    "services": {
+      "netflix": {
+        "name": "Netflix",
+        "accessible": true,
+        "method": "known-capability",
+        "servers": [
+          "us",
+          "uk"
+        ]
+      },
+      "youtube": {
+        "name": "YouTube",
+        "accessible": true,
+        "method": "known-capability",
+        "servers": [
+          "any"
+        ]
+      },
+      "disney": {
+        "name": "Disney+",
+        "accessible": false,
+        "method": "known-capability",
+        "servers": []
+      },
+      "hulu": {
+        "name": "Hulu",
+        "accessible": false,
+        "method": "known-capability",
+        "servers": []
+      },
+      "bbc": {
+        "name": "BBC iPlayer",
+        "accessible": true,
+        "method": "known-capability",
+        "servers": [
+          "uk"
+        ]
+      }
+    }
+  },
+  {
+    "vpnId": "cyberghost",
+    "timestamp": "2026-02-17T14:00:27.774Z",
+    "services": {
+      "netflix": {
+        "name": "Netflix",
+        "accessible": true,
+        "method": "known-capability",
+        "servers": [
+          "us",
+          "uk",
+          "de",
+          "fr"
+        ]
+      },
+      "youtube": {
+        "name": "YouTube",
+        "accessible": true,
+        "method": "known-capability",
+        "servers": [
+          "any"
+        ]
+      },
+      "disney": {
+        "name": "Disney+",
+        "accessible": true,
+        "method": "known-capability",
+        "servers": [
+          "us",
+          "uk",
+          "de"
+        ]
+      },
+      "hulu": {
+        "name": "Hulu",
+        "accessible": true,
+        "method": "known-capability",
+        "servers": [
+          "us"
+        ]
+      },
+      "bbc": {
+        "name": "BBC iPlayer",
+        "accessible": true,
+        "method": "known-capability",
+        "servers": [
+          "uk"
+        ]
+      }
+    }
+  }
+]

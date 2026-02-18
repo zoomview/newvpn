@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react'
 import { useParams, Link } from 'react-router-dom'
-import { ArrowLeft, Star, Zap, Clock, Check, X, Shield, Globe, Download, Smartphone, Lock, Gamepad2, Film, Eye } from 'lucide-react'
+import { ArrowLeft, Star, Zap, Clock, Check, X, Shield, Globe, Download, Smartphone, Lock, Gamepad2, Film, Eye, BarChart3 } from 'lucide-react'
 import RelatedSecurityTools from '../components/RelatedSecurityTools'
 
 // VPN reviews data
@@ -520,6 +520,14 @@ function VPNReview() {
 
       {/* Related Security Tools */}
       <RelatedSecurityTools />
+
+      {/* Back to Data Page */}
+      <div style={{ textAlign: 'center', marginTop: '24px' }}>
+        <Link to={`/vpn/${id}`} className="btn btn-secondary">
+          <BarChart3 size={18} />
+          View Performance Data
+        </Link>
+      </div>
     </div>
   )
 }

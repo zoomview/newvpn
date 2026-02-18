@@ -1,0 +1,142 @@
+- generic [ref=e3]:
+  - banner [ref=e4]:
+    - generic [ref=e5]:
+      - link "VPNSpan" [ref=e6] [cursor=pointer]:
+        - /url: /
+        - img [ref=e7]
+        - generic [ref=e14]: VPNSpan
+      - navigation [ref=e15]:
+        - link "Dashboard" [ref=e16] [cursor=pointer]:
+          - /url: /
+        - link "Find VPN" [ref=e17] [cursor=pointer]:
+          - /url: /find-vpn
+        - link "Compare" [ref=e18] [cursor=pointer]:
+          - /url: /comparison
+        - link "Blog" [ref=e19] [cursor=pointer]:
+          - /url: /blog
+        - link "About" [ref=e20] [cursor=pointer]:
+          - /url: /about
+  - main [ref=e21]:
+    - generic [ref=e22]:
+      - link "Back to Dashboard" [ref=e23] [cursor=pointer]:
+        - /url: /
+        - img [ref=e24]
+        - text: Back to Dashboard
+      - generic [ref=e26]:
+        - heading "VPN Comparison" [level=1] [ref=e27]
+        - paragraph [ref=e28]: Compare top VPN services across speed, privacy, streaming, and value
+      - generic [ref=e29]:
+        - heading "Select VPNs to Compare (max 5)" [level=3] [ref=e30]
+        - generic [ref=e31]:
+          - button "ExpressVPN ExpressVPN" [ref=e32] [cursor=pointer]:
+            - img "ExpressVPN" [ref=e33]
+            - generic [ref=e34]: ExpressVPN
+          - button "NordVPN NordVPN" [ref=e35] [cursor=pointer]:
+            - img "NordVPN" [ref=e36]
+            - generic [ref=e37]: NordVPN
+          - button "Surfshark Surfshark" [ref=e38] [cursor=pointer]:
+            - img "Surfshark" [ref=e39]
+            - generic [ref=e40]: Surfshark
+          - button "ProtonVPN ProtonVPN" [ref=e41] [cursor=pointer]:
+            - img "ProtonVPN" [ref=e42]
+            - generic [ref=e43]: ProtonVPN
+          - button "CyberGhost CyberGhost" [ref=e44] [cursor=pointer]:
+            - img "CyberGhost" [ref=e45]
+            - generic [ref=e46]: CyberGhost
+      - generic [ref=e47]:
+        - button "Radar Chart" [ref=e48] [cursor=pointer]
+        - button "Detailed Comparison" [ref=e49] [cursor=pointer]
+      - generic [ref=e50]:
+        - heading "Performance Overview" [level=3] [ref=e51]
+        - generic [ref=e53]:
+          - img [ref=e54]:
+            - generic [ref=e68]:
+              - generic [ref=e70]: Speed
+              - generic [ref=e73]: Stability
+              - generic [ref=e76]: Privacy
+              - generic [ref=e79]: Streaming
+              - generic [ref=e82]: Value
+            - generic [ref=e84]:
+              - generic [ref=e86]: "0"
+              - generic [ref=e88]: "25"
+              - generic [ref=e90]: "50"
+              - generic [ref=e92]: "75"
+              - generic [ref=e94]: "100"
+          - list [ref=e96]:
+            - listitem [ref=e97]:
+              - img [ref=e98]
+              - generic [ref=e100]: ExpressVPN
+            - listitem [ref=e101]:
+              - img [ref=e102]
+              - generic [ref=e104]: NordVPN
+            - listitem [ref=e105]:
+              - img [ref=e106]
+              - generic [ref=e108]: Surfshark
+        - generic [ref=e109]:
+          - generic [ref=e110]:
+            - generic [ref=e111]: Connection Speed
+            - generic [ref=e112]: "Weight: 30%"
+          - generic [ref=e113]:
+            - generic [ref=e114]: Connection Stability
+            - generic [ref=e115]: "Weight: 25%"
+          - generic [ref=e116]:
+            - generic [ref=e117]: Privacy & Security
+            - generic [ref=e118]: "Weight: 20%"
+          - generic [ref=e119]:
+            - generic [ref=e120]: Streaming Support
+            - generic [ref=e121]: "Weight: 15%"
+          - generic [ref=e122]:
+            - generic [ref=e123]: Price Value
+            - generic [ref=e124]: "Weight: 10%"
+      - generic [ref=e125]:
+        - link "Get ExpressVPN" [ref=e126] [cursor=pointer]:
+          - /url: https://www.expressvpn.com
+        - link "Get NordVPN" [ref=e127] [cursor=pointer]:
+          - /url: https://nordvpn.com
+        - link "Get Surfshark" [ref=e128] [cursor=pointer]:
+          - /url: https://surfshark.com
+  - contentinfo [ref=e129]:
+    - generic [ref=e130]:
+      - generic [ref=e131]:
+        - generic [ref=e132]: VPNSpan
+        - paragraph [ref=e133]: Real-time VPN Performance Monitoring
+      - generic [ref=e134]:
+        - generic [ref=e135]:
+          - heading "Navigation" [level=4] [ref=e136]
+          - link "Dashboard" [ref=e137] [cursor=pointer]:
+            - /url: /
+          - link "Compare" [ref=e138] [cursor=pointer]:
+            - /url: /comparison
+          - link "Blog" [ref=e139] [cursor=pointer]:
+            - /url: /blog
+          - link "About" [ref=e140] [cursor=pointer]:
+            - /url: /about
+        - generic [ref=e141]:
+          - heading "VPN Reviews" [level=4] [ref=e142]
+          - link "Surfshark" [ref=e143] [cursor=pointer]:
+            - /url: /reviews/surfshark
+          - link "ExpressVPN" [ref=e144] [cursor=pointer]:
+            - /url: /reviews/expressvpn
+          - link "NordVPN" [ref=e145] [cursor=pointer]:
+            - /url: /reviews/nordvpn
+          - link "ProtonVPN" [ref=e146] [cursor=pointer]:
+            - /url: /reviews/protonvpn
+          - link "CyberGhost" [ref=e147] [cursor=pointer]:
+            - /url: /reviews/cyberghost
+        - generic [ref=e148]:
+          - heading "Legal" [level=4] [ref=e149]
+          - link "Privacy Policy" [ref=e150] [cursor=pointer]:
+            - /url: /privacy
+          - link "Terms of Service" [ref=e151] [cursor=pointer]:
+            - /url: /terms
+          - link "Cookie Policy" [ref=e152] [cursor=pointer]:
+            - /url: /cookie-policy
+          - link "Affiliate Disclosure" [ref=e153] [cursor=pointer]:
+            - /url: /affiliate-disclosure
+    - generic [ref=e154]:
+      - paragraph [ref=e155]: © 2026 VPNSpan. All rights reserved.
+      - paragraph [ref=e156]: VPNSpan is an independent comparison platform. We may earn commissions from VPN services reviewed on this site.
+      - paragraph [ref=e157]:
+        - text: "Contact:"
+        - link "contact@vpnspan.com" [ref=e158] [cursor=pointer]:
+          - /url: mailto:contact@vpnspan.com

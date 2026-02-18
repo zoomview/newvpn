@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react'
 import { Link } from 'react-router-dom'
-import { RefreshCw, Zap, Clock, Server, BarChart3, Wifi, WifiOff, Film, Shield, Gamepad2 } from 'lucide-react'
+import { RefreshCw, Zap, Clock, Server, BarChart3, Wifi, WifiOff, Film, Shield, Gamepad2, ExternalLink } from 'lucide-react'
 import axios from 'axios'
 import { vpnLogos, VPNLogo } from '../data/vpnLogos'
 import SecurityStackWidget from '../components/SecurityStackWidget'
@@ -277,7 +277,17 @@ function Dashboard() {
 
               {/* Actions */}
               <div className="vpn-actions">
-                <Link to={`/reviews/${vpn.id}`} className="btn btn-primary btn-sm">
+                <a 
+                  href={vpnLogos[vpn.id]?.affiliateLink || '#'} 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="btn btn-primary btn-sm"
+                  style={{ backgroundColor: '#10b981' }}
+                >
+                  <ExternalLink size={14} />
+                  Get Deal
+                </a>
+                <Link to={`/reviews/${vpn.id}`} className="btn btn-secondary btn-sm">
                   Review
                 </Link>
                 <Link to={`/vpn/${vpn.id}`} className="btn btn-secondary btn-sm">

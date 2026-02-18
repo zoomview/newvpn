@@ -283,30 +283,24 @@ export const vpnReviews = {
   }
 }
 
-// Get VPN logo component with fallback
+// Get VPN logo component with image
 export function VPNLogo({ vpnId, size = 40 }) {
   const vpn = vpnLogos[vpnId]
   if (!vpn) return null
   
   return (
-    <div 
+    <img 
+      src={vpn.image} 
+      alt={vpn.name}
       style={{
         width: `${size}px`,
         height: `${size}px`,
         borderRadius: '8px',
-        backgroundColor: vpn.color,
-        display: 'flex',
-        alignItems: 'center',
-        justifyContent: 'center',
-        color: 'white',
-        fontWeight: 'bold',
-        fontSize: `${size * 0.4}px`,
-        overflow: 'hidden'
+        objectFit: 'contain',
+        backgroundColor: 'white',
+        padding: '2px'
       }}
-      title={vpn.name}
-    >
-      {vpn.name.charAt(0)}
-    </div>
+    />
   )
 }
 

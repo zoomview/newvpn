@@ -1,0 +1,107 @@
+[
+  {
+    "id": "expressvpn",
+    "name": "ExpressVPN",
+    "status": "online",
+    "uptime": 95,
+    "speed": 96,
+    "latency": 21,
+    "nodes": {
+      "online": 50,
+      "total": 52
+    },
+    "streaming": {
+      "netflix": true,
+      "youtube": true,
+      "disney": true,
+      "hulu": true,
+      "bbc": true
+    },
+    "lastChecked": "2026-02-17T14:00:27.773Z",
+    "isRealData": false
+  },
+  {
+    "id": "nordvpn",
+    "name": "NordVPN",
+    "status": "online",
+    "uptime": 99,
+    "speed": 81,
+    "latency": 52,
+    "nodes": {
+      "online": 180,
+      "total": 185
+    },
+    "streaming": {
+      "netflix": true,
+      "youtube": true,
+      "disney": true,
+      "hulu": true,
+      "bbc": true
+    },
+    "lastChecked": "2026-02-17T14:00:27.774Z",
+    "isRealData": false
+  },
+  {
+    "id": "surfshark",
+    "name": "Surfshark",
+    "status": "online",
+    "uptime": 99,
+    "speed": 63,
+    "latency": 26,
+    "nodes": {
+      "online": 25,
+      "total": 28
+    },
+    "streaming": {
+      "netflix": true,
+      "youtube": true,
+      "disney": true,
+      "hulu": true,
+      "bbc": true
+    },
+    "lastChecked": "2026-02-17T14:00:27.774Z",
+    "isRealData": false
+  },
+  {
+    "id": "protonvpn",
+    "name": "ProtonVPN",
+    "status": "online",
+    "uptime": 99,
+    "speed": 66,
+    "latency": 48,
+    "nodes": {
+      "online": 45,
+      "total": 50
+    },
+    "streaming": {
+      "netflix": true,
+      "youtube": true,
+      "disney": false,
+      "hulu": true,
+      "bbc": true
+    },
+    "lastChecked": "2026-02-17T14:00:27.774Z",
+    "isRealData": false
+  },
+  {
+    "id": "cyberghost",
+    "name": "CyberGhost",
+    "status": "online",
+    "uptime": 93,
+    "speed": 77,
+    "latency": 20,
+    "nodes": {
+      "online": 120,
+      "total": 125
+    },
+    "streaming": {
+      "netflix": true,
+      "youtube": true,
+      "disney": true,
+      "hulu": true,
+      "bbc": true
+    },
+    "lastChecked": "2026-02-17T14:00:27.774Z",
+    "isRealData": false
+  }
+]

@@ -1,0 +1,354 @@
+- generic [ref=e3]:
+  - banner [ref=e4]:
+    - generic [ref=e5]:
+      - link "VPNSpan" [ref=e6] [cursor=pointer]:
+        - /url: /
+        - img [ref=e7]
+        - generic [ref=e14]: VPNSpan
+      - navigation [ref=e15]:
+        - link "Dashboard" [ref=e16] [cursor=pointer]:
+          - /url: /
+        - link "Find VPN" [ref=e17] [cursor=pointer]:
+          - /url: /find-vpn
+        - link "Compare" [ref=e18] [cursor=pointer]:
+          - /url: /comparison
+        - link "Blog" [ref=e19] [cursor=pointer]:
+          - /url: /blog
+        - link "About" [ref=e20] [cursor=pointer]:
+          - /url: /about
+  - main [ref=e21]:
+    - generic [ref=e22]:
+      - generic [ref=e58]:
+        - heading "VPN Performance Dashboard" [level=1] [ref=e59]
+        - paragraph [ref=e60]: Real-time monitoring of top VPN services
+      - generic [ref=e61]:
+        - generic [ref=e62]:
+          - generic [ref=e63]:
+            - img [ref=e64]
+            - text: Monitored VPNs
+          - generic [ref=e67]: "5"
+        - generic [ref=e68]:
+          - generic [ref=e69]:
+            - img [ref=e70]
+            - text: Online Rate
+          - generic [ref=e74]: 100%
+        - generic [ref=e75]:
+          - generic [ref=e76]:
+            - img [ref=e77]
+            - text: Avg Speed
+          - generic [ref=e79]: 81 Mbps
+        - generic [ref=e80]:
+          - generic [ref=e81]:
+            - img [ref=e82]
+            - text: Avg Latency
+          - generic [ref=e85]: 34 ms
+      - generic [ref=e86]:
+        - generic [ref=e87]:
+          - img [ref=e88]
+          - heading "Complete Your Security Stack" [level=3] [ref=e90]
+        - generic [ref=e91]:
+          - link "VPN Encrypt your connection" [ref=e92] [cursor=pointer]:
+            - /url: /
+            - img [ref=e93]
+            - generic [ref=e95]:
+              - paragraph [ref=e96]: VPN
+              - paragraph [ref=e97]: Encrypt your connection
+            - img [ref=e98]
+          - link "Password Manager Secure your accounts" [ref=e100] [cursor=pointer]:
+            - /url: /reviews/password-managers
+            - img [ref=e101]
+            - generic [ref=e104]:
+              - paragraph [ref=e105]: Password Manager
+              - paragraph [ref=e106]: Secure your accounts
+            - img [ref=e107]
+          - link "Antivirus Protect from malware" [ref=e109] [cursor=pointer]:
+            - /url: /reviews/antivirus
+            - img [ref=e110]
+            - generic [ref=e113]:
+              - paragraph [ref=e114]: Antivirus
+              - paragraph [ref=e115]: Protect from malware
+            - img [ref=e116]
+          - link "Privacy Browser Browse privately" [ref=e118] [cursor=pointer]:
+            - /url: /reviews/privacy-browsers
+            - img [ref=e119]
+            - generic [ref=e122]:
+              - paragraph [ref=e123]: Privacy Browser
+              - paragraph [ref=e124]: Browse privately
+            - img [ref=e125]
+      - generic [ref=e127]:
+        - paragraph [ref=e128]: "Last updated: 2026/2/17 20:10:41"
+        - button "Refresh" [ref=e129] [cursor=pointer]:
+          - img [ref=e130]
+          - generic [ref=e135]: Refresh
+      - generic [ref=e136]:
+        - button "All VPNs" [ref=e137] [cursor=pointer]
+        - button "Streaming" [ref=e138] [cursor=pointer]:
+          - img [ref=e139]
+          - text: Streaming
+        - button "Privacy" [ref=e141] [cursor=pointer]:
+          - img [ref=e142]
+          - text: Privacy
+        - button "Gaming" [ref=e144] [cursor=pointer]:
+          - img [ref=e145]
+          - text: Gaming
+      - generic [ref=e147]:
+        - generic [ref=e148]:
+          - generic [ref=e149]:
+            - img "ExpressVPN" [ref=e150]
+            - generic [ref=e151]:
+              - heading "ExpressVPN" [level=3] [ref=e152]:
+                - link "ExpressVPN" [ref=e153] [cursor=pointer]:
+                  - /url: https://www.expressvpn.com
+              - generic [ref=e154]:
+                - img [ref=e155]
+                - text: online
+          - generic [ref=e159]:
+            - generic [ref=e160]:
+              - img [ref=e161]
+              - generic [ref=e163]: "95"
+              - generic [ref=e164]: Mbps
+            - generic [ref=e165]:
+              - img [ref=e166]
+              - generic [ref=e169]: "18"
+              - generic [ref=e170]: ms
+            - generic [ref=e171]:
+              - img [ref=e172]
+              - generic [ref=e175]: "50"
+              - generic [ref=e176]: / 52
+          - generic [ref=e177]:
+            - generic [ref=e178]: Uptime
+            - generic [ref=e181]: 98.5%
+          - generic [ref=e182]:
+            - generic [ref=e183]: Streaming
+            - generic [ref=e184]:
+              - generic [ref=e185]: "N"
+              - generic [ref=e186]: "Y"
+              - generic [ref=e187]: D
+          - generic [ref=e188]:
+            - link "Get Deal" [ref=e189] [cursor=pointer]:
+              - /url: https://www.expressvpn.com
+              - text: Get Deal
+              - img [ref=e190]
+            - link "Review" [ref=e194] [cursor=pointer]:
+              - /url: /reviews/expressvpn
+            - link "Data" [ref=e195] [cursor=pointer]:
+              - /url: /vpn/expressvpn
+              - img [ref=e196]
+              - generic [ref=e198]: Data
+        - generic [ref=e199]:
+          - generic [ref=e200]:
+            - img "NordVPN" [ref=e201]
+            - generic [ref=e202]:
+              - heading "NordVPN" [level=3] [ref=e203]:
+                - link "NordVPN" [ref=e204] [cursor=pointer]:
+                  - /url: https://nordvpn.com
+              - generic [ref=e205]:
+                - img [ref=e206]
+                - text: online
+          - generic [ref=e210]:
+            - generic [ref=e211]:
+              - img [ref=e212]
+              - generic [ref=e214]: "88"
+              - generic [ref=e215]: Mbps
+            - generic [ref=e216]:
+              - img [ref=e217]
+              - generic [ref=e220]: "25"
+              - generic [ref=e221]: ms
+            - generic [ref=e222]:
+              - img [ref=e223]
+              - generic [ref=e226]: "180"
+              - generic [ref=e227]: / 185
+          - generic [ref=e228]:
+            - generic [ref=e229]: Uptime
+            - generic [ref=e232]: 96.2%
+          - generic [ref=e233]:
+            - generic [ref=e234]: Streaming
+            - generic [ref=e235]:
+              - generic [ref=e236]: "N"
+              - generic [ref=e237]: "Y"
+              - generic [ref=e238]: D
+          - generic [ref=e239]:
+            - link "Get Deal" [ref=e240] [cursor=pointer]:
+              - /url: https://nordvpn.com
+              - text: Get Deal
+              - img [ref=e241]
+            - link "Review" [ref=e245] [cursor=pointer]:
+              - /url: /reviews/nordvpn
+            - link "Data" [ref=e246] [cursor=pointer]:
+              - /url: /vpn/nordvpn
+              - img [ref=e247]
+              - generic [ref=e249]: Data
+        - generic [ref=e250]:
+          - generic [ref=e251]:
+            - img "Surfshark" [ref=e252]
+            - generic [ref=e253]:
+              - heading "Surfshark" [level=3] [ref=e254]:
+                - link "Surfshark" [ref=e255] [cursor=pointer]:
+                  - /url: https://surfshark.com
+              - generic [ref=e256]:
+                - img [ref=e257]
+                - text: online
+          - generic [ref=e261]:
+            - generic [ref=e262]:
+              - img [ref=e263]
+              - generic [ref=e265]: "85"
+              - generic [ref=e266]: Mbps
+            - generic [ref=e267]:
+              - img [ref=e268]
+              - generic [ref=e271]: "35"
+              - generic [ref=e272]: ms
+            - generic [ref=e273]:
+              - img [ref=e274]
+              - generic [ref=e277]: "25"
+              - generic [ref=e278]: / 28
+          - generic [ref=e279]:
+            - generic [ref=e280]: Uptime
+            - generic [ref=e283]: 94.5%
+          - generic [ref=e284]:
+            - generic [ref=e285]: Streaming
+            - generic [ref=e286]:
+              - generic [ref=e287]: "N"
+              - generic [ref=e288]: "Y"
+              - generic [ref=e289]: D
+          - generic [ref=e290]:
+            - link "Get Deal" [ref=e291] [cursor=pointer]:
+              - /url: https://surfshark.com
+              - text: Get Deal
+              - img [ref=e292]
+            - link "Review" [ref=e296] [cursor=pointer]:
+              - /url: /reviews/surfshark
+            - link "Data" [ref=e297] [cursor=pointer]:
+              - /url: /vpn/surfshark
+              - img [ref=e298]
+              - generic [ref=e300]: Data
+        - generic [ref=e301]:
+          - generic [ref=e302]:
+            - img "ProtonVPN" [ref=e303]
+            - generic [ref=e304]:
+              - heading "ProtonVPN" [level=3] [ref=e305]:
+                - link "ProtonVPN" [ref=e306] [cursor=pointer]:
+                  - /url: https://protonvpn.com
+              - generic [ref=e307]:
+                - img [ref=e308]
+                - text: online
+          - generic [ref=e312]:
+            - generic [ref=e313]:
+              - img [ref=e314]
+              - generic [ref=e316]: "65"
+              - generic [ref=e317]: Mbps
+            - generic [ref=e318]:
+              - img [ref=e319]
+              - generic [ref=e322]: "55"
+              - generic [ref=e323]: ms
+            - generic [ref=e324]:
+              - img [ref=e325]
+              - generic [ref=e328]: "45"
+              - generic [ref=e329]: / 50
+          - generic [ref=e330]:
+            - generic [ref=e331]: Uptime
+            - generic [ref=e334]: 94.8%
+          - generic [ref=e335]:
+            - generic [ref=e336]: Streaming
+            - generic [ref=e337]:
+              - generic [ref=e338]: "N"
+              - generic [ref=e339]: "Y"
+              - generic [ref=e340]: D
+          - generic [ref=e341]:
+            - link "Get Deal" [ref=e342] [cursor=pointer]:
+              - /url: https://protonvpn.com
+              - text: Get Deal
+              - img [ref=e343]
+            - link "Review" [ref=e347] [cursor=pointer]:
+              - /url: /reviews/protonvpn
+            - link "Data" [ref=e348] [cursor=pointer]:
+              - /url: /vpn/protonvpn
+              - img [ref=e349]
+              - generic [ref=e351]: Data
+        - generic [ref=e352]:
+          - generic [ref=e353]:
+            - img "CyberGhost" [ref=e354]
+            - generic [ref=e355]:
+              - heading "CyberGhost" [level=3] [ref=e356]:
+                - link "CyberGhost" [ref=e357] [cursor=pointer]:
+                  - /url: https://www.cyberghost.com
+              - generic [ref=e358]:
+                - img [ref=e359]
+                - text: online
+          - generic [ref=e363]:
+            - generic [ref=e364]:
+              - img [ref=e365]
+              - generic [ref=e367]: "72"
+              - generic [ref=e368]: Mbps
+            - generic [ref=e369]:
+              - img [ref=e370]
+              - generic [ref=e373]: "38"
+              - generic [ref=e374]: ms
+            - generic [ref=e375]:
+              - img [ref=e376]
+              - generic [ref=e379]: "120"
+              - generic [ref=e380]: / 125
+          - generic [ref=e381]:
+            - generic [ref=e382]: Uptime
+            - generic [ref=e385]: 89.5%
+          - generic [ref=e386]:
+            - generic [ref=e387]: Streaming
+            - generic [ref=e388]:
+              - generic [ref=e389]: "N"
+              - generic [ref=e390]: "Y"
+              - generic [ref=e391]: D
+          - generic [ref=e392]:
+            - link "Get Deal" [ref=e393] [cursor=pointer]:
+              - /url: https://www.cyberghost.com
+              - text: Get Deal
+              - img [ref=e394]
+            - link "Review" [ref=e398] [cursor=pointer]:
+              - /url: /reviews/cyberghost
+            - link "Data" [ref=e399] [cursor=pointer]:
+              - /url: /vpn/cyberghost
+              - img [ref=e400]
+              - generic [ref=e402]: Data
+  - contentinfo [ref=e28]:
+    - generic [ref=e29]:
+      - generic [ref=e30]:
+        - generic [ref=e31]: VPNSpan
+        - paragraph [ref=e32]: Real-time VPN Performance Monitoring
+      - generic [ref=e33]:
+        - generic [ref=e34]:
+          - heading "Navigation" [level=4] [ref=e35]
+          - link "Dashboard" [ref=e36] [cursor=pointer]:
+            - /url: /
+          - link "Compare" [ref=e37] [cursor=pointer]:
+            - /url: /comparison
+          - link "Blog" [ref=e38] [cursor=pointer]:
+            - /url: /blog
+          - link "About" [ref=e39] [cursor=pointer]:
+            - /url: /about
+        - generic [ref=e40]:
+          - heading "VPN Reviews" [level=4] [ref=e41]
+          - link "Surfshark" [ref=e42] [cursor=pointer]:
+            - /url: /reviews/surfshark
+          - link "ExpressVPN" [ref=e43] [cursor=pointer]:
+            - /url: /reviews/expressvpn
+          - link "NordVPN" [ref=e44] [cursor=pointer]:
+            - /url: /reviews/nordvpn
+          - link "ProtonVPN" [ref=e45] [cursor=pointer]:
+            - /url: /reviews/protonvpn
+          - link "CyberGhost" [ref=e46] [cursor=pointer]:
+            - /url: /reviews/cyberghost
+        - generic [ref=e47]:
+          - heading "Legal" [level=4] [ref=e48]
+          - link "Privacy Policy" [ref=e49] [cursor=pointer]:
+            - /url: /privacy
+          - link "Terms of Service" [ref=e50] [cursor=pointer]:
+            - /url: /terms
+          - link "Cookie Policy" [ref=e51] [cursor=pointer]:
+            - /url: /cookie-policy
+          - link "Affiliate Disclosure" [ref=e52] [cursor=pointer]:
+            - /url: /affiliate-disclosure
+    - generic [ref=e53]:
+      - paragraph [ref=e54]: © 2026 VPNSpan. All rights reserved.
+      - paragraph [ref=e55]: VPNSpan is an independent comparison platform. We may earn commissions from VPN services reviewed on this site.
+      - paragraph [ref=e56]:
+        - text: "Contact:"
+        - link "contact@vpnspan.com" [ref=e57] [cursor=pointer]:
+          - /url: mailto:contact@vpnspan.com

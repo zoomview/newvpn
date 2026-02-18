@@ -1,0 +1,2018 @@
+[
+  {
+    "time": "2026-02-17T13:58:35.278Z",
+    "speed": 81,
+    "latency": 52,
+    "uptime": 98
+  },
+  {
+    "time": "2026-02-17T13:58:35.617Z",
+    "speed": 63,
+    "latency": 38,
+    "uptime": 92
+  },
+  {
+    "time": "2026-02-17T13:58:35.965Z",
+    "speed": 75,
+    "latency": 24,
+    "uptime": 95
+  },
+  {
+    "time": "2026-02-17T13:58:36.313Z",
+    "speed": 96,
+    "latency": 44,
+    "uptime": 99
+  },
+  {
+    "time": "2026-02-17T13:58:36.657Z",
+    "speed": 61,
+    "latency": 30,
+    "uptime": 96
+  },
+  {
+    "time": "2026-02-17T13:58:37.005Z",
+    "speed": 91,
+    "latency": 33,
+    "uptime": 96
+  },
+  {
+    "time": "2026-02-17T13:58:37.348Z",
+    "speed": 99,
+    "latency": 37,
+    "uptime": 94
+  },
+  {
+    "time": "2026-02-17T13:58:37.682Z",
+    "speed": 86,
+    "latency": 20,
+    "uptime": 98
+  },
+  {
+    "time": "2026-02-17T13:58:38.016Z",
+    "speed": 74,
+    "latency": 47,
+    "uptime": 93
+  },
+  {
+    "time": "2026-02-17T13:58:38.347Z",
+    "speed": 75,
+    "latency": 23,
+    "uptime": 96
+  },
+  {
+    "time": "2026-02-17T13:58:38.673Z",
+    "speed": 82,
+    "latency": 24,
+    "uptime": 94
+  },
+  {
+    "time": "2026-02-17T13:58:39.011Z",
+    "speed": 94,
+    "latency": 47,
+    "uptime": 96
+  },
+  {
+    "time": "2026-02-17T13:58:39.360Z",
+    "speed": 97,
+    "latency": 43,
+    "uptime": 92
+  },
+  {
+    "time": "2026-02-17T13:58:39.687Z",
+    "speed": 70,
+    "latency": 28,
+    "uptime": 94
+  },
+  {
+    "time": "2026-02-17T13:58:40.011Z",
+    "speed": 61,
+    "latency": 35,
+    "uptime": 96
+  },
+  {
+    "time": "2026-02-17T13:58:40.347Z",
+    "speed": 95,
+    "latency": 47,
+    "uptime": 97
+  },
+  {
+    "time": "2026-02-17T13:58:40.695Z",
+    "speed": 79,
+    "latency": 26,
+    "uptime": 93
+  },
+  {
+    "time": "2026-02-17T13:58:41.025Z",
+    "speed": 79,
+    "latency": 24,
+    "uptime": 99
+  },
+  {
+    "time": "2026-02-17T13:58:41.351Z",
+    "speed": 77,
+    "latency": 36,
+    "uptime": 92
+  },
+  {
+    "time": "2026-02-17T13:58:41.702Z",
+    "speed": 65,
+    "latency": 42,
+    "uptime": 92
+  },
+  {
+    "time": "2026-02-17T13:58:42.067Z",
+    "speed": 74,
+    "latency": 59,
+    "uptime": 94
+  },
+  {
+    "time": "2026-02-17T13:58:42.423Z",
+    "speed": 82,
+    "latency": 45,
+    "uptime": 99
+  },
+  {
+    "time": "2026-02-17T13:58:42.750Z",
+    "speed": 76,
+    "latency": 41,
+    "uptime": 97
+  },
+  {
+    "time": "2026-02-17T13:58:43.087Z",
+    "speed": 92,
+    "latency": 32,
+    "uptime": 97
+  },
+  {
+    "time": "2026-02-17T13:58:43.418Z",
+    "speed": 69,
+    "latency": 32,
+    "uptime": 96
+  },
+  {
+    "time": "2026-02-17T13:58:43.761Z",
+    "speed": 86,
+    "latency": 44,
+    "uptime": 97
+  },
+  {
+    "time": "2026-02-17T13:58:44.092Z",
+    "speed": 68,
+    "latency": 46,
+    "uptime": 98
+  },
+  {
+    "time": "2026-02-17T13:58:44.423Z",
+    "speed": 70,
+    "latency": 42,
+    "uptime": 95
+  },
+  {
+    "time": "2026-02-17T13:58:44.769Z",
+    "speed": 89,
+    "latency": 56,
+    "uptime": 99
+  },
+  {
+    "time": "2026-02-17T13:58:45.100Z",
+    "speed": 82,
+    "latency": 39,
+    "uptime": 96
+  },
+  {
+    "time": "2026-02-17T13:58:45.440Z",
+    "speed": 99,
+    "latency": 37,
+    "uptime": 99
+  },
+  {
+    "time": "2026-02-17T13:58:45.771Z",
+    "speed": 89,
+    "latency": 35,
+    "uptime": 98
+  },
+  {
+    "time": "2026-02-17T13:58:46.120Z",
+    "speed": 63,
+    "latency": 35,
+    "uptime": 92
+  },
+  {
+    "time": "2026-02-17T13:58:46.446Z",
+    "speed": 80,
+    "latency": 41,
+    "uptime": 98
+  },
+  {
+    "time": "2026-02-17T13:58:46.788Z",
+    "speed": 65,
+    "latency": 42,
+    "uptime": 98
+  },
+  {
+    "time": "2026-02-17T13:58:47.121Z",
+    "speed": 64,
+    "latency": 30,
+    "uptime": 93
+  },
+  {
+    "time": "2026-02-17T13:58:47.465Z",
+    "speed": 80,
+    "latency": 23,
+    "uptime": 96
+  },
+  {
+    "time": "2026-02-17T13:58:47.810Z",
+    "speed": 69,
+    "latency": 55,
+    "uptime": 95
+  },
+  {
+    "time": "2026-02-17T13:58:48.145Z",
+    "speed": 82,
+    "latency": 50,
+    "uptime": 96
+  },
+  {
+    "time": "2026-02-17T13:58:48.480Z",
+    "speed": 81,
+    "latency": 49,
+    "uptime": 93
+  },
+  {
+    "time": "2026-02-17T13:58:48.815Z",
+    "speed": 74,
+    "latency": 27,
+    "uptime": 95
+  },
+  {
+    "time": "2026-02-17T13:58:49.164Z",
+    "speed": 63,
+    "latency": 25,
+    "uptime": 96
+  },
+  {
+    "time": "2026-02-17T13:58:49.484Z",
+    "speed": 63,
+    "latency": 57,
+    "uptime": 92
+  },
+  {
+    "time": "2026-02-17T13:58:49.825Z",
+    "speed": 85,
+    "latency": 57,
+    "uptime": 95
+  },
+  {
+    "time": "2026-02-17T13:58:50.154Z",
+    "speed": 81,
+    "latency": 24,
+    "uptime": 96
+  },
+  {
+    "time": "2026-02-17T13:58:50.482Z",
+    "speed": 62,
+    "latency": 40,
+    "uptime": 92
+  },
+  {
+    "time": "2026-02-17T13:58:50.815Z",
+    "speed": 65,
+    "latency": 21,
+    "uptime": 98
+  },
+  {
+    "time": "2026-02-17T13:58:51.148Z",
+    "speed": 96,
+    "latency": 22,
+    "uptime": 97
+  },
+  {
+    "time": "2026-02-17T13:58:51.485Z",
+    "speed": 72,
+    "latency": 45,
+    "uptime": 96
+  },
+  {
+    "time": "2026-02-17T13:58:51.816Z",
+    "speed": 89,
+    "latency": 40,
+    "uptime": 96
+  },
+  {
+    "time": "2026-02-17T13:58:52.160Z",
+    "speed": 86,
+    "latency": 49,
+    "uptime": 95
+  },
+  {
+    "time": "2026-02-17T13:58:52.494Z",
+    "speed": 85,
+    "latency": 20,
+    "uptime": 96
+  },
+  {
+    "time": "2026-02-17T13:58:52.817Z",
+    "speed": 80,
+    "latency": 23,
+    "uptime": 95
+  },
+  {
+    "time": "2026-02-17T13:58:53.156Z",
+    "speed": 74,
+    "latency": 42,
+    "uptime": 98
+  },
+  {
+    "time": "2026-02-17T13:58:53.490Z",
+    "speed": 92,
+    "latency": 36,
+    "uptime": 95
+  },
+  {
+    "time": "2026-02-17T13:58:53.822Z",
+    "speed": 76,
+    "latency": 58,
+    "uptime": 92
+  },
+  {
+    "time": "2026-02-17T13:58:54.144Z",
+    "speed": 86,
+    "latency": 25,
+    "uptime": 98
+  },
+  {
+    "time": "2026-02-17T13:58:54.481Z",
+    "speed": 98,
+    "latency": 49,
+    "uptime": 97
+  },
+  {
+    "time": "2026-02-17T13:58:54.813Z",
+    "speed": 69,
+    "latency": 21,
+    "uptime": 98
+  },
+  {
+    "time": "2026-02-17T13:58:55.145Z",
+    "speed": 91,
+    "latency": 58,
+    "uptime": 98
+  },
+  {
+    "time": "2026-02-17T13:58:55.487Z",
+    "speed": 96,
+    "latency": 35,
+    "uptime": 94
+  },
+  {
+    "time": "2026-02-17T13:58:55.811Z",
+    "speed": 79,
+    "latency": 23,
+    "uptime": 94
+  },
+  {
+    "time": "2026-02-17T13:58:56.139Z",
+    "speed": 87,
+    "latency": 31,
+    "uptime": 95
+  },
+  {
+    "time": "2026-02-17T13:58:56.485Z",
+    "speed": 61,
+    "latency": 55,
+    "uptime": 97
+  },
+  {
+    "time": "2026-02-17T13:58:56.815Z",
+    "speed": 61,
+    "latency": 22,
+    "uptime": 99
+  },
+  {
+    "time": "2026-02-17T13:58:57.161Z",
+    "speed": 88,
+    "latency": 55,
+    "uptime": 99
+  },
+  {
+    "time": "2026-02-17T13:58:57.500Z",
+    "speed": 79,
+    "latency": 41,
+    "uptime": 98
+  },
+  {
+    "time": "2026-02-17T13:58:57.833Z",
+    "speed": 82,
+    "latency": 35,
+    "uptime": 97
+  },
+  {
+    "time": "2026-02-17T13:58:58.174Z",
+    "speed": 69,
+    "latency": 40,
+    "uptime": 96
+  },
+  {
+    "time": "2026-02-17T13:58:58.516Z",
+    "speed": 87,
+    "latency": 32,
+    "uptime": 95
+  },
+  {
+    "time": "2026-02-17T13:58:58.856Z",
+    "speed": 68,
+    "latency": 45,
+    "uptime": 96
+  },
+  {
+    "time": "2026-02-17T13:58:59.185Z",
+    "speed": 97,
+    "latency": 50,
+    "uptime": 96
+  },
+  {
+    "time": "2026-02-17T13:58:59.527Z",
+    "speed": 71,
+    "latency": 37,
+    "uptime": 99
+  },
+  {
+    "time": "2026-02-17T13:58:59.871Z",
+    "speed": 67,
+    "latency": 58,
+    "uptime": 97
+  },
+  {
+    "time": "2026-02-17T13:59:00.203Z",
+    "speed": 83,
+    "latency": 33,
+    "uptime": 96
+  },
+  {
+    "time": "2026-02-17T13:59:00.551Z",
+    "speed": 87,
+    "latency": 27,
+    "uptime": 93
+  },
+  {
+    "time": "2026-02-17T13:59:00.896Z",
+    "speed": 76,
+    "latency": 24,
+    "uptime": 94
+  },
+  {
+    "time": "2026-02-17T13:59:01.226Z",
+    "speed": 67,
+    "latency": 49,
+    "uptime": 94
+  },
+  {
+    "time": "2026-02-17T13:59:01.630Z",
+    "speed": 77,
+    "latency": 30,
+    "uptime": 92
+  },
+  {
+    "time": "2026-02-17T13:59:01.960Z",
+    "speed": 82,
+    "latency": 32,
+    "uptime": 98
+  },
+  {
+    "time": "2026-02-17T13:59:02.298Z",
+    "speed": 89,
+    "latency": 52,
+    "uptime": 92
+  },
+  {
+    "time": "2026-02-17T13:59:02.641Z",
+    "speed": 87,
+    "latency": 48,
+    "uptime": 95
+  },
+  {
+    "time": "2026-02-17T13:59:02.977Z",
+    "speed": 74,
+    "latency": 34,
+    "uptime": 95
+  },
+  {
+    "time": "2026-02-17T13:59:03.304Z",
+    "speed": 83,
+    "latency": 53,
+    "uptime": 99
+  },
+  {
+    "time": "2026-02-17T13:59:03.643Z",
+    "speed": 92,
+    "latency": 44,
+    "uptime": 98
+  },
+  {
+    "time": "2026-02-17T13:59:03.976Z",
+    "speed": 98,
+    "latency": 47,
+    "uptime": 92
+  },
+  {
+    "time": "2026-02-17T13:59:04.296Z",
+    "speed": 85,
+    "latency": 51,
+    "uptime": 98
+  },
+  {
+    "time": "2026-02-17T13:59:04.634Z",
+    "speed": 68,
+    "latency": 20,
+    "uptime": 98
+  },
+  {
+    "time": "2026-02-17T13:59:04.962Z",
+    "speed": 61,
+    "latency": 49,
+    "uptime": 95
+  },
+  {
+    "time": "2026-02-17T13:59:05.296Z",
+    "speed": 71,
+    "latency": 23,
+    "uptime": 92
+  },
+  {
+    "time": "2026-02-17T13:59:05.626Z",
+    "speed": 72,
+    "latency": 50,
+    "uptime": 98
+  },
+  {
+    "time": "2026-02-17T13:59:05.966Z",
+    "speed": 66,
+    "latency": 20,
+    "uptime": 92
+  },
+  {
+    "time": "2026-02-17T13:59:06.297Z",
+    "speed": 71,
+    "latency": 52,
+    "uptime": 96
+  },
+  {
+    "time": "2026-02-17T13:59:06.630Z",
+    "speed": 66,
+    "latency": 54,
+    "uptime": 92
+  },
+  {
+    "time": "2026-02-17T13:59:06.966Z",
+    "speed": 75,
+    "latency": 21,
+    "uptime": 98
+  },
+  {
+    "time": "2026-02-17T13:59:07.290Z",
+    "speed": 85,
+    "latency": 39,
+    "uptime": 99
+  },
+  {
+    "time": "2026-02-17T13:59:07.623Z",
+    "speed": 68,
+    "latency": 35,
+    "uptime": 98
+  },
+  {
+    "time": "2026-02-17T13:59:07.961Z",
+    "speed": 87,
+    "latency": 23,
+    "uptime": 98
+  },
+  {
+    "time": "2026-02-17T13:59:08.287Z",
+    "speed": 92,
+    "latency": 44,
+    "uptime": 96
+  },
+  {
+    "time": "2026-02-17T13:59:08.614Z",
+    "speed": 85,
+    "latency": 38,
+    "uptime": 93
+  },
+  {
+    "time": "2026-02-17T13:59:08.951Z",
+    "speed": 68,
+    "latency": 57,
+    "uptime": 97
+  },
+  {
+    "time": "2026-02-17T13:59:09.285Z",
+    "speed": 73,
+    "latency": 33,
+    "uptime": 96
+  },
+  {
+    "time": "2026-02-17T13:59:09.614Z",
+    "speed": 76,
+    "latency": 26,
+    "uptime": 93
+  },
+  {
+    "time": "2026-02-17T13:59:09.939Z",
+    "speed": 88,
+    "latency": 30,
+    "uptime": 96
+  },
+  {
+    "time": "2026-02-17T13:59:10.270Z",
+    "speed": 90,
+    "latency": 40,
+    "uptime": 97
+  },
+  {
+    "time": "2026-02-17T13:59:10.600Z",
+    "speed": 82,
+    "latency": 52,
+    "uptime": 99
+  },
+  {
+    "time": "2026-02-17T13:59:10.929Z",
+    "speed": 70,
+    "latency": 51,
+    "uptime": 96
+  },
+  {
+    "time": "2026-02-17T13:59:11.268Z",
+    "speed": 65,
+    "latency": 21,
+    "uptime": 99
+  },
+  {
+    "time": "2026-02-17T13:59:11.600Z",
+    "speed": 90,
+    "latency": 49,
+    "uptime": 97
+  },
+  {
+    "time": "2026-02-17T13:59:11.938Z",
+    "speed": 94,
+    "latency": 46,
+    "uptime": 94
+  },
+  {
+    "time": "2026-02-17T13:59:12.274Z",
+    "speed": 75,
+    "latency": 40,
+    "uptime": 94
+  },
+  {
+    "time": "2026-02-17T13:59:12.614Z",
+    "speed": 91,
+    "latency": 55,
+    "uptime": 92
+  },
+  {
+    "time": "2026-02-17T13:59:12.949Z",
+    "speed": 98,
+    "latency": 59,
+    "uptime": 93
+  },
+  {
+    "time": "2026-02-17T13:59:13.294Z",
+    "speed": 86,
+    "latency": 50,
+    "uptime": 97
+  },
+  {
+    "time": "2026-02-17T13:59:13.643Z",
+    "speed": 73,
+    "latency": 59,
+    "uptime": 95
+  },
+  {
+    "time": "2026-02-17T13:59:13.975Z",
+    "speed": 87,
+    "latency": 47,
+    "uptime": 98
+  },
+  {
+    "time": "2026-02-17T13:59:14.302Z",
+    "speed": 70,
+    "latency": 36,
+    "uptime": 94
+  },
+  {
+    "time": "2026-02-17T13:59:14.635Z",
+    "speed": 61,
+    "latency": 26,
+    "uptime": 96
+  },
+  {
+    "time": "2026-02-17T13:59:14.969Z",
+    "speed": 76,
+    "latency": 44,
+    "uptime": 98
+  },
+  {
+    "time": "2026-02-17T13:59:15.296Z",
+    "speed": 89,
+    "latency": 44,
+    "uptime": 92
+  },
+  {
+    "time": "2026-02-17T13:59:15.628Z",
+    "speed": 77,
+    "latency": 47,
+    "uptime": 94
+  },
+  {
+    "time": "2026-02-17T13:59:15.964Z",
+    "speed": 75,
+    "latency": 58,
+    "uptime": 99
+  },
+  {
+    "time": "2026-02-17T13:59:16.298Z",
+    "speed": 79,
+    "latency": 27,
+    "uptime": 94
+  },
+  {
+    "time": "2026-02-17T13:59:16.626Z",
+    "speed": 84,
+    "latency": 52,
+    "uptime": 99
+  },
+  {
+    "time": "2026-02-17T13:59:16.960Z",
+    "speed": 79,
+    "latency": 43,
+    "uptime": 95
+  },
+  {
+    "time": "2026-02-17T13:59:17.292Z",
+    "speed": 69,
+    "latency": 44,
+    "uptime": 98
+  },
+  {
+    "time": "2026-02-17T13:59:17.622Z",
+    "speed": 89,
+    "latency": 45,
+    "uptime": 96
+  },
+  {
+    "time": "2026-02-17T13:59:17.964Z",
+    "speed": 89,
+    "latency": 56,
+    "uptime": 94
+  },
+  {
+    "time": "2026-02-17T13:59:18.290Z",
+    "speed": 99,
+    "latency": 31,
+    "uptime": 92
+  },
+  {
+    "time": "2026-02-17T13:59:18.630Z",
+    "speed": 61,
+    "latency": 20,
+    "uptime": 99
+  },
+  {
+    "time": "2026-02-17T13:59:18.965Z",
+    "speed": 81,
+    "latency": 20,
+    "uptime": 95
+  },
+  {
+    "time": "2026-02-17T13:59:19.299Z",
+    "speed": 94,
+    "latency": 23,
+    "uptime": 99
+  },
+  {
+    "time": "2026-02-17T13:59:19.633Z",
+    "speed": 91,
+    "latency": 24,
+    "uptime": 95
+  },
+  {
+    "time": "2026-02-17T13:59:19.976Z",
+    "speed": 85,
+    "latency": 51,
+    "uptime": 99
+  },
+  {
+    "time": "2026-02-17T13:59:20.314Z",
+    "speed": 75,
+    "latency": 54,
+    "uptime": 99
+  },
+  {
+    "time": "2026-02-17T13:59:20.656Z",
+    "speed": 96,
+    "latency": 48,
+    "uptime": 92
+  },
+  {
+    "time": "2026-02-17T13:59:20.992Z",
+    "speed": 61,
+    "latency": 26,
+    "uptime": 96
+  },
+  {
+    "time": "2026-02-17T13:59:21.326Z",
+    "speed": 76,
+    "latency": 31,
+    "uptime": 94
+  },
+  {
+    "time": "2026-02-17T13:59:21.668Z",
+    "speed": 85,
+    "latency": 40,
+    "uptime": 97
+  },
+  {
+    "time": "2026-02-17T13:59:22.008Z",
+    "speed": 60,
+    "latency": 55,
+    "uptime": 93
+  },
+  {
+    "time": "2026-02-17T13:59:22.343Z",
+    "speed": 76,
+    "latency": 55,
+    "uptime": 95
+  },
+  {
+    "time": "2026-02-17T13:59:22.665Z",
+    "speed": 73,
+    "latency": 23,
+    "uptime": 93
+  },
+  {
+    "time": "2026-02-17T13:59:23.006Z",
+    "speed": 63,
+    "latency": 47,
+    "uptime": 92
+  },
+  {
+    "time": "2026-02-17T13:59:23.335Z",
+    "speed": 97,
+    "latency": 45,
+    "uptime": 97
+  },
+  {
+    "time": "2026-02-17T13:59:23.665Z",
+    "speed": 75,
+    "latency": 28,
+    "uptime": 92
+  },
+  {
+    "time": "2026-02-17T13:59:23.997Z",
+    "speed": 65,
+    "latency": 53,
+    "uptime": 99
+  },
+  {
+    "time": "2026-02-17T13:59:24.332Z",
+    "speed": 69,
+    "latency": 48,
+    "uptime": 98
+  },
+  {
+    "time": "2026-02-17T13:59:24.668Z",
+    "speed": 83,
+    "latency": 37,
+    "uptime": 98
+  },
+  {
+    "time": "2026-02-17T13:59:25.002Z",
+    "speed": 90,
+    "latency": 31,
+    "uptime": 93
+  },
+  {
+    "time": "2026-02-17T13:59:25.333Z",
+    "speed": 76,
+    "latency": 55,
+    "uptime": 93
+  },
+  {
+    "time": "2026-02-17T13:59:25.667Z",
+    "speed": 70,
+    "latency": 26,
+    "uptime": 96
+  },
+  {
+    "time": "2026-02-17T13:59:26.000Z",
+    "speed": 65,
+    "latency": 58,
+    "uptime": 97
+  },
+  {
+    "time": "2026-02-17T13:59:26.333Z",
+    "speed": 67,
+    "latency": 28,
+    "uptime": 99
+  },
+  {
+    "time": "2026-02-17T13:59:26.664Z",
+    "speed": 81,
+    "latency": 50,
+    "uptime": 94
+  },
+  {
+    "time": "2026-02-17T13:59:26.993Z",
+    "speed": 94,
+    "latency": 57,
+    "uptime": 93
+  },
+  {
+    "time": "2026-02-17T13:59:27.325Z",
+    "speed": 68,
+    "latency": 53,
+    "uptime": 98
+  },
+  {
+    "time": "2026-02-17T13:59:27.654Z",
+    "speed": 61,
+    "latency": 31,
+    "uptime": 93
+  },
+  {
+    "time": "2026-02-17T13:59:27.982Z",
+    "speed": 63,
+    "latency": 54,
+    "uptime": 93
+  },
+  {
+    "time": "2026-02-17T13:59:28.326Z",
+    "speed": 87,
+    "latency": 21,
+    "uptime": 98
+  },
+  {
+    "time": "2026-02-17T13:59:28.647Z",
+    "speed": 68,
+    "latency": 29,
+    "uptime": 97
+  },
+  {
+    "time": "2026-02-17T13:59:28.980Z",
+    "speed": 93,
+    "latency": 59,
+    "uptime": 94
+  },
+  {
+    "time": "2026-02-17T13:59:29.303Z",
+    "speed": 60,
+    "latency": 43,
+    "uptime": 92
+  },
+  {
+    "time": "2026-02-17T13:59:29.633Z",
+    "speed": 88,
+    "latency": 27,
+    "uptime": 92
+  },
+  {
+    "time": "2026-02-17T13:59:29.964Z",
+    "speed": 98,
+    "latency": 46,
+    "uptime": 99
+  },
+  {
+    "time": "2026-02-17T13:59:30.307Z",
+    "speed": 83,
+    "latency": 49,
+    "uptime": 96
+  },
+  {
+    "time": "2026-02-17T13:59:30.639Z",
+    "speed": 93,
+    "latency": 41,
+    "uptime": 98
+  },
+  {
+    "time": "2026-02-17T13:59:30.971Z",
+    "speed": 92,
+    "latency": 56,
+    "uptime": 92
+  },
+  {
+    "time": "2026-02-17T13:59:31.315Z",
+    "speed": 92,
+    "latency": 52,
+    "uptime": 94
+  },
+  {
+    "time": "2026-02-17T13:59:31.652Z",
+    "speed": 92,
+    "latency": 59,
+    "uptime": 94
+  },
+  {
+    "time": "2026-02-17T13:59:31.988Z",
+    "speed": 77,
+    "latency": 27,
+    "uptime": 98
+  },
+  {
+    "time": "2026-02-17T13:59:32.326Z",
+    "speed": 64,
+    "latency": 51,
+    "uptime": 93
+  },
+  {
+    "time": "2026-02-17T13:59:32.660Z",
+    "speed": 76,
+    "latency": 53,
+    "uptime": 99
+  },
+  {
+    "time": "2026-02-17T13:59:32.986Z",
+    "speed": 60,
+    "latency": 49,
+    "uptime": 95
+  },
+  {
+    "time": "2026-02-17T13:59:33.315Z",
+    "speed": 81,
+    "latency": 35,
+    "uptime": 93
+  },
+  {
+    "time": "2026-02-17T13:59:33.646Z",
+    "speed": 84,
+    "latency": 44,
+    "uptime": 98
+  },
+  {
+    "time": "2026-02-17T13:59:33.985Z",
+    "speed": 93,
+    "latency": 35,
+    "uptime": 99
+  },
+  {
+    "time": "2026-02-17T13:59:34.322Z",
+    "speed": 77,
+    "latency": 44,
+    "uptime": 94
+  },
+  {
+    "time": "2026-02-17T13:59:34.660Z",
+    "speed": 74,
+    "latency": 39,
+    "uptime": 92
+  },
+  {
+    "time": "2026-02-17T13:59:34.993Z",
+    "speed": 69,
+    "latency": 47,
+    "uptime": 97
+  },
+  {
+    "time": "2026-02-17T13:59:35.324Z",
+    "speed": 79,
+    "latency": 57,
+    "uptime": 95
+  },
+  {
+    "time": "2026-02-17T13:59:35.657Z",
+    "speed": 63,
+    "latency": 36,
+    "uptime": 93
+  },
+  {
+    "time": "2026-02-17T13:59:35.992Z",
+    "speed": 90,
+    "latency": 43,
+    "uptime": 98
+  },
+  {
+    "time": "2026-02-17T13:59:36.316Z",
+    "speed": 66,
+    "latency": 36,
+    "uptime": 98
+  },
+  {
+    "time": "2026-02-17T13:59:36.636Z",
+    "speed": 87,
+    "latency": 25,
+    "uptime": 99
+  },
+  {
+    "time": "2026-02-17T13:59:36.974Z",
+    "speed": 65,
+    "latency": 59,
+    "uptime": 97
+  },
+  {
+    "time": "2026-02-17T13:59:37.316Z",
+    "speed": 91,
+    "latency": 42,
+    "uptime": 96
+  },
+  {
+    "time": "2026-02-17T13:59:37.657Z",
+    "speed": 80,
+    "latency": 31,
+    "uptime": 93
+  },
+  {
+    "time": "2026-02-17T13:59:37.979Z",
+    "speed": 95,
+    "latency": 22,
+    "uptime": 94
+  },
+  {
+    "time": "2026-02-17T13:59:38.322Z",
+    "speed": 95,
+    "latency": 43,
+    "uptime": 94
+  },
+  {
+    "time": "2026-02-17T13:59:38.656Z",
+    "speed": 76,
+    "latency": 29,
+    "uptime": 94
+  },
+  {
+    "time": "2026-02-17T13:59:38.985Z",
+    "speed": 84,
+    "latency": 25,
+    "uptime": 95
+  },
+  {
+    "time": "2026-02-17T13:59:39.320Z",
+    "speed": 88,
+    "latency": 25,
+    "uptime": 95
+  },
+  {
+    "time": "2026-02-17T13:59:39.648Z",
+    "speed": 82,
+    "latency": 51,
+    "uptime": 95
+  },
+  {
+    "time": "2026-02-17T13:59:39.970Z",
+    "speed": 85,
+    "latency": 20,
+    "uptime": 95
+  },
+  {
+    "time": "2026-02-17T13:59:40.290Z",
+    "speed": 82,
+    "latency": 34,
+    "uptime": 97
+  },
+  {
+    "time": "2026-02-17T13:59:40.638Z",
+    "speed": 77,
+    "latency": 26,
+    "uptime": 99
+  },
+  {
+    "time": "2026-02-17T13:59:40.991Z",
+    "speed": 96,
+    "latency": 29,
+    "uptime": 92
+  },
+  {
+    "time": "2026-02-17T13:59:41.327Z",
+    "speed": 69,
+    "latency": 49,
+    "uptime": 96
+  },
+  {
+    "time": "2026-02-17T13:59:41.664Z",
+    "speed": 68,
+    "latency": 20,
+    "uptime": 99
+  },
+  {
+    "time": "2026-02-17T13:59:41.993Z",
+    "speed": 94,
+    "latency": 48,
+    "uptime": 98
+  },
+  {
+    "time": "2026-02-17T13:59:42.359Z",
+    "speed": 72,
+    "latency": 34,
+    "uptime": 99
+  },
+  {
+    "time": "2026-02-17T13:59:42.691Z",
+    "speed": 83,
+    "latency": 23,
+    "uptime": 92
+  },
+  {
+    "time": "2026-02-17T13:59:43.023Z",
+    "speed": 70,
+    "latency": 42,
+    "uptime": 95
+  },
+  {
+    "time": "2026-02-17T13:59:43.358Z",
+    "speed": 60,
+    "latency": 31,
+    "uptime": 96
+  },
+  {
+    "time": "2026-02-17T13:59:43.706Z",
+    "speed": 90,
+    "latency": 48,
+    "uptime": 95
+  },
+  {
+    "time": "2026-02-17T13:59:44.039Z",
+    "speed": 62,
+    "latency": 27,
+    "uptime": 94
+  },
+  {
+    "time": "2026-02-17T13:59:44.371Z",
+    "speed": 99,
+    "latency": 53,
+    "uptime": 98
+  },
+  {
+    "time": "2026-02-17T13:59:44.700Z",
+    "speed": 91,
+    "latency": 37,
+    "uptime": 95
+  },
+  {
+    "time": "2026-02-17T13:59:45.030Z",
+    "speed": 95,
+    "latency": 32,
+    "uptime": 99
+  },
+  {
+    "time": "2026-02-17T13:59:45.359Z",
+    "speed": 72,
+    "latency": 23,
+    "uptime": 99
+  },
+  {
+    "time": "2026-02-17T13:59:45.691Z",
+    "speed": 87,
+    "latency": 42,
+    "uptime": 95
+  },
+  {
+    "time": "2026-02-17T13:59:46.017Z",
+    "speed": 70,
+    "latency": 42,
+    "uptime": 95
+  },
+  {
+    "time": "2026-02-17T13:59:46.343Z",
+    "speed": 63,
+    "latency": 47,
+    "uptime": 97
+  },
+  {
+    "time": "2026-02-17T13:59:46.682Z",
+    "speed": 99,
+    "latency": 45,
+    "uptime": 94
+  },
+  {
+    "time": "2026-02-17T13:59:47.019Z",
+    "speed": 99,
+    "latency": 55,
+    "uptime": 97
+  },
+  {
+    "time": "2026-02-17T13:59:47.348Z",
+    "speed": 93,
+    "latency": 24,
+    "uptime": 95
+  },
+  {
+    "time": "2026-02-17T13:59:47.674Z",
+    "speed": 86,
+    "latency": 21,
+    "uptime": 92
+  },
+  {
+    "time": "2026-02-17T13:59:48.018Z",
+    "speed": 62,
+    "latency": 35,
+    "uptime": 92
+  },
+  {
+    "time": "2026-02-17T13:59:48.345Z",
+    "speed": 71,
+    "latency": 32,
+    "uptime": 95
+  },
+  {
+    "time": "2026-02-17T13:59:48.677Z",
+    "speed": 75,
+    "latency": 49,
+    "uptime": 92
+  },
+  {
+    "time": "2026-02-17T13:59:49.011Z",
+    "speed": 61,
+    "latency": 45,
+    "uptime": 94
+  },
+  {
+    "time": "2026-02-17T13:59:49.357Z",
+    "speed": 97,
+    "latency": 27,
+    "uptime": 96
+  },
+  {
+    "time": "2026-02-17T13:59:49.681Z",
+    "speed": 90,
+    "latency": 39,
+    "uptime": 98
+  },
+  {
+    "time": "2026-02-17T13:59:50.013Z",
+    "speed": 94,
+    "latency": 25,
+    "uptime": 95
+  },
+  {
+    "time": "2026-02-17T13:59:50.341Z",
+    "speed": 92,
+    "latency": 35,
+    "uptime": 96
+  },
+  {
+    "time": "2026-02-17T13:59:50.680Z",
+    "speed": 65,
+    "latency": 42,
+    "uptime": 93
+  },
+  {
+    "time": "2026-02-17T13:59:51.010Z",
+    "speed": 67,
+    "latency": 45,
+    "uptime": 93
+  },
+  {
+    "time": "2026-02-17T13:59:51.351Z",
+    "speed": 72,
+    "latency": 28,
+    "uptime": 99
+  },
+  {
+    "time": "2026-02-17T13:59:51.692Z",
+    "speed": 76,
+    "latency": 25,
+    "uptime": 99
+  },
+  {
+    "time": "2026-02-17T13:59:52.018Z",
+    "speed": 61,
+    "latency": 48,
+    "uptime": 93
+  },
+  {
+    "time": "2026-02-17T13:59:52.355Z",
+    "speed": 91,
+    "latency": 55,
+    "uptime": 96
+  },
+  {
+    "time": "2026-02-17T13:59:52.676Z",
+    "speed": 84,
+    "latency": 42,
+    "uptime": 98
+  },
+  {
+    "time": "2026-02-17T13:59:53.013Z",
+    "speed": 62,
+    "latency": 24,
+    "uptime": 92
+  },
+  {
+    "time": "2026-02-17T13:59:53.341Z",
+    "speed": 65,
+    "latency": 40,
+    "uptime": 96
+  },
+  {
+    "time": "2026-02-17T13:59:53.665Z",
+    "speed": 72,
+    "latency": 26,
+    "uptime": 95
+  },
+  {
+    "time": "2026-02-17T13:59:53.988Z",
+    "speed": 89,
+    "latency": 41,
+    "uptime": 98
+  },
+  {
+    "time": "2026-02-17T13:59:54.314Z",
+    "speed": 83,
+    "latency": 23,
+    "uptime": 93
+  },
+  {
+    "time": "2026-02-17T13:59:54.651Z",
+    "speed": 95,
+    "latency": 55,
+    "uptime": 95
+  },
+  {
+    "time": "2026-02-17T13:59:54.974Z",
+    "speed": 98,
+    "latency": 55,
+    "uptime": 99
+  },
+  {
+    "time": "2026-02-17T13:59:55.302Z",
+    "speed": 80,
+    "latency": 39,
+    "uptime": 97
+  },
+  {
+    "time": "2026-02-17T13:59:55.642Z",
+    "speed": 93,
+    "latency": 31,
+    "uptime": 97
+  },
+  {
+    "time": "2026-02-17T13:59:55.971Z",
+    "speed": 69,
+    "latency": 50,
+    "uptime": 96
+  },
+  {
+    "time": "2026-02-17T13:59:56.310Z",
+    "speed": 77,
+    "latency": 33,
+    "uptime": 92
+  },
+  {
+    "time": "2026-02-17T13:59:56.640Z",
+    "speed": 97,
+    "latency": 21,
+    "uptime": 95
+  },
+  {
+    "time": "2026-02-17T13:59:56.981Z",
+    "speed": 62,
+    "latency": 36,
+    "uptime": 99
+  },
+  {
+    "time": "2026-02-17T13:59:57.318Z",
+    "speed": 82,
+    "latency": 59,
+    "uptime": 94
+  },
+  {
+    "time": "2026-02-17T13:59:57.664Z",
+    "speed": 72,
+    "latency": 53,
+    "uptime": 96
+  },
+  {
+    "time": "2026-02-17T13:59:57.997Z",
+    "speed": 78,
+    "latency": 29,
+    "uptime": 95
+  },
+  {
+    "time": "2026-02-17T13:59:58.332Z",
+    "speed": 73,
+    "latency": 58,
+    "uptime": 93
+  },
+  {
+    "time": "2026-02-17T13:59:58.658Z",
+    "speed": 83,
+    "latency": 26,
+    "uptime": 92
+  },
+  {
+    "time": "2026-02-17T13:59:58.989Z",
+    "speed": 72,
+    "latency": 48,
+    "uptime": 97
+  },
+  {
+    "time": "2026-02-17T13:59:59.317Z",
+    "speed": 66,
+    "latency": 35,
+    "uptime": 93
+  },
+  {
+    "time": "2026-02-17T13:59:59.651Z",
+    "speed": 95,
+    "latency": 59,
+    "uptime": 94
+  },
+  {
+    "time": "2026-02-17T13:59:59.980Z",
+    "speed": 98,
+    "latency": 38,
+    "uptime": 92
+  },
+  {
+    "time": "2026-02-17T14:00:00.325Z",
+    "speed": 75,
+    "latency": 28,
+    "uptime": 98
+  },
+  {
+    "time": "2026-02-17T14:00:00.665Z",
+    "speed": 68,
+    "latency": 47,
+    "uptime": 97
+  },
+  {
+    "time": "2026-02-17T14:00:00.999Z",
+    "speed": 93,
+    "latency": 38,
+    "uptime": 96
+  },
+  {
+    "time": "2026-02-17T14:00:01.328Z",
+    "speed": 78,
+    "latency": 41,
+    "uptime": 96
+  },
+  {
+    "time": "2026-02-17T14:00:01.660Z",
+    "speed": 72,
+    "latency": 50,
+    "uptime": 95
+  },
+  {
+    "time": "2026-02-17T14:00:01.981Z",
+    "speed": 88,
+    "latency": 30,
+    "uptime": 98
+  },
+  {
+    "time": "2026-02-17T14:00:02.324Z",
+    "speed": 89,
+    "latency": 23,
+    "uptime": 92
+  },
+  {
+    "time": "2026-02-17T14:00:02.668Z",
+    "speed": 85,
+    "latency": 57,
+    "uptime": 93
+  },
+  {
+    "time": "2026-02-17T14:00:03.002Z",
+    "speed": 97,
+    "latency": 21,
+    "uptime": 95
+  },
+  {
+    "time": "2026-02-17T14:00:03.344Z",
+    "speed": 76,
+    "latency": 49,
+    "uptime": 95
+  },
+  {
+    "time": "2026-02-17T14:00:03.675Z",
+    "speed": 96,
+    "latency": 49,
+    "uptime": 95
+  },
+  {
+    "time": "2026-02-17T14:00:04.006Z",
+    "speed": 87,
+    "latency": 52,
+    "uptime": 93
+  },
+  {
+    "time": "2026-02-17T14:00:04.342Z",
+    "speed": 79,
+    "latency": 48,
+    "uptime": 98
+  },
+  {
+    "time": "2026-02-17T14:00:04.682Z",
+    "speed": 97,
+    "latency": 30,
+    "uptime": 92
+  },
+  {
+    "time": "2026-02-17T14:00:05.006Z",
+    "speed": 81,
+    "latency": 22,
+    "uptime": 93
+  },
+  {
+    "time": "2026-02-17T14:00:05.344Z",
+    "speed": 70,
+    "latency": 29,
+    "uptime": 93
+  },
+  {
+    "time": "2026-02-17T14:00:05.688Z",
+    "speed": 79,
+    "latency": 31,
+    "uptime": 97
+  },
+  {
+    "time": "2026-02-17T14:00:06.019Z",
+    "speed": 75,
+    "latency": 53,
+    "uptime": 98
+  },
+  {
+    "time": "2026-02-17T14:00:06.350Z",
+    "speed": 99,
+    "latency": 41,
+    "uptime": 93
+  },
+  {
+    "time": "2026-02-17T14:00:06.688Z",
+    "speed": 83,
+    "latency": 54,
+    "uptime": 96
+  },
+  {
+    "time": "2026-02-17T14:00:07.027Z",
+    "speed": 69,
+    "latency": 24,
+    "uptime": 95
+  },
+  {
+    "time": "2026-02-17T14:00:07.371Z",
+    "speed": 80,
+    "latency": 33,
+    "uptime": 97
+  },
+  {
+    "time": "2026-02-17T14:00:07.706Z",
+    "speed": 94,
+    "latency": 23,
+    "uptime": 94
+  },
+  {
+    "time": "2026-02-17T14:00:08.043Z",
+    "speed": 87,
+    "latency": 27,
+    "uptime": 92
+  },
+  {
+    "time": "2026-02-17T14:00:08.369Z",
+    "speed": 90,
+    "latency": 34,
+    "uptime": 95
+  },
+  {
+    "time": "2026-02-17T14:00:08.710Z",
+    "speed": 92,
+    "latency": 34,
+    "uptime": 93
+  },
+  {
+    "time": "2026-02-17T14:00:09.042Z",
+    "speed": 60,
+    "latency": 29,
+    "uptime": 98
+  },
+  {
+    "time": "2026-02-17T14:00:09.372Z",
+    "speed": 73,
+    "latency": 48,
+    "uptime": 94
+  },
+  {
+    "time": "2026-02-17T14:00:09.711Z",
+    "speed": 94,
+    "latency": 26,
+    "uptime": 96
+  },
+  {
+    "time": "2026-02-17T14:00:10.033Z",
+    "speed": 69,
+    "latency": 39,
+    "uptime": 95
+  },
+  {
+    "time": "2026-02-17T14:00:10.358Z",
+    "speed": 62,
+    "latency": 47,
+    "uptime": 94
+  },
+  {
+    "time": "2026-02-17T14:00:10.695Z",
+    "speed": 62,
+    "latency": 23,
+    "uptime": 94
+  },
+  {
+    "time": "2026-02-17T14:00:11.023Z",
+    "speed": 65,
+    "latency": 55,
+    "uptime": 98
+  },
+  {
+    "time": "2026-02-17T14:00:11.361Z",
+    "speed": 78,
+    "latency": 34,
+    "uptime": 97
+  },
+  {
+    "time": "2026-02-17T14:00:11.702Z",
+    "speed": 98,
+    "latency": 36,
+    "uptime": 96
+  },
+  {
+    "time": "2026-02-17T14:00:12.039Z",
+    "speed": 64,
+    "latency": 30,
+    "uptime": 96
+  },
+  {
+    "time": "2026-02-17T14:00:12.373Z",
+    "speed": 85,
+    "latency": 58,
+    "uptime": 96
+  },
+  {
+    "time": "2026-02-17T14:00:12.703Z",
+    "speed": 90,
+    "latency": 41,
+    "uptime": 95
+  },
+  {
+    "time": "2026-02-17T14:00:13.037Z",
+    "speed": 94,
+    "latency": 39,
+    "uptime": 92
+  },
+  {
+    "time": "2026-02-17T14:00:13.358Z",
+    "speed": 95,
+    "latency": 35,
+    "uptime": 95
+  },
+  {
+    "time": "2026-02-17T14:00:13.683Z",
+    "speed": 60,
+    "latency": 20,
+    "uptime": 99
+  },
+  {
+    "time": "2026-02-17T14:00:14.029Z",
+    "speed": 65,
+    "latency": 23,
+    "uptime": 98
+  },
+  {
+    "time": "2026-02-17T14:00:14.380Z",
+    "speed": 82,
+    "latency": 58,
+    "uptime": 94
+  },
+  {
+    "time": "2026-02-17T14:00:14.706Z",
+    "speed": 67,
+    "latency": 43,
+    "uptime": 92
+  },
+  {
+    "time": "2026-02-17T14:00:15.043Z",
+    "speed": 84,
+    "latency": 21,
+    "uptime": 93
+  },
+  {
+    "time": "2026-02-17T14:00:15.379Z",
+    "speed": 88,
+    "latency": 52,
+    "uptime": 94
+  },
+  {
+    "time": "2026-02-17T14:00:15.730Z",
+    "speed": 61,
+    "latency": 38,
+    "uptime": 93
+  },
+  {
+    "time": "2026-02-17T14:00:16.062Z",
+    "speed": 86,
+    "latency": 37,
+    "uptime": 98
+  },
+  {
+    "time": "2026-02-17T14:00:16.396Z",
+    "speed": 99,
+    "latency": 28,
+    "uptime": 99
+  },
+  {
+    "time": "2026-02-17T14:00:16.733Z",
+    "speed": 69,
+    "latency": 39,
+    "uptime": 94
+  },
+  {
+    "time": "2026-02-17T14:00:17.073Z",
+    "speed": 78,
+    "latency": 56,
+    "uptime": 97
+  },
+  {
+    "time": "2026-02-17T14:00:17.408Z",
+    "speed": 68,
+    "latency": 41,
+    "uptime": 96
+  },
+  {
+    "time": "2026-02-17T14:00:17.735Z",
+    "speed": 78,
+    "latency": 20,
+    "uptime": 93
+  },
+  {
+    "time": "2026-02-17T14:00:18.065Z",
+    "speed": 69,
+    "latency": 46,
+    "uptime": 93
+  },
+  {
+    "time": "2026-02-17T14:00:18.401Z",
+    "speed": 81,
+    "latency": 35,
+    "uptime": 93
+  },
+  {
+    "time": "2026-02-17T14:00:18.750Z",
+    "speed": 88,
+    "latency": 32,
+    "uptime": 93
+  },
+  {
+    "time": "2026-02-17T14:00:19.107Z",
+    "speed": 99,
+    "latency": 35,
+    "uptime": 98
+  },
+  {
+    "time": "2026-02-17T14:00:19.485Z",
+    "speed": 69,
+    "latency": 32,
+    "uptime": 96
+  },
+  {
+    "time": "2026-02-17T14:00:19.816Z",
+    "speed": 99,
+    "latency": 45,
+    "uptime": 93
+  },
+  {
+    "time": "2026-02-17T14:00:20.150Z",
+    "speed": 61,
+    "latency": 56,
+    "uptime": 93
+  },
+  {
+    "time": "2026-02-17T14:00:20.493Z",
+    "speed": 98,
+    "latency": 35,
+    "uptime": 94
+  },
+  {
+    "time": "2026-02-17T14:00:20.836Z",
+    "speed": 93,
+    "latency": 27,
+    "uptime": 95
+  },
+  {
+    "time": "2026-02-17T14:00:21.180Z",
+    "speed": 74,
+    "latency": 29,
+    "uptime": 99
+  },
+  {
+    "time": "2026-02-17T14:00:21.533Z",
+    "speed": 91,
+    "latency": 54,
+    "uptime": 99
+  },
+  {
+    "time": "2026-02-17T14:00:21.882Z",
+    "speed": 95,
+    "latency": 34,
+    "uptime": 92
+  },
+  {
+    "time": "2026-02-17T14:00:22.214Z",
+    "speed": 83,
+    "latency": 35,
+    "uptime": 97
+  },
+  {
+    "time": "2026-02-17T14:00:22.643Z",
+    "speed": 83,
+    "latency": 20,
+    "uptime": 99
+  },
+  {
+    "time": "2026-02-17T14:00:23.019Z",
+    "speed": 86,
+    "latency": 52,
+    "uptime": 99
+  },
+  {
+    "time": "2026-02-17T14:00:23.365Z",
+    "speed": 81,
+    "latency": 39,
+    "uptime": 97
+  },
+  {
+    "time": "2026-02-17T14:00:23.760Z",
+    "speed": 84,
+    "latency": 28,
+    "uptime": 96
+  },
+  {
+    "time": "2026-02-17T14:00:24.086Z",
+    "speed": 66,
+    "latency": 27,
+    "uptime": 98
+  },
+  {
+    "time": "2026-02-17T14:00:24.431Z",
+    "speed": 85,
+    "latency": 56,
+    "uptime": 99
+  },
+  {
+    "time": "2026-02-17T14:00:24.758Z",
+    "speed": 95,
+    "latency": 54,
+    "uptime": 98
+  },
+  {
+    "time": "2026-02-17T14:00:25.130Z",
+    "speed": 91,
+    "latency": 21,
+    "uptime": 99
+  },
+  {
+    "time": "2026-02-17T14:00:25.478Z",
+    "speed": 74,
+    "latency": 24,
+    "uptime": 97
+  },
+  {
+    "time": "2026-02-17T14:00:25.801Z",
+    "speed": 67,
+    "latency": 24,
+    "uptime": 96
+  },
+  {
+    "time": "2026-02-17T14:00:26.124Z",
+    "speed": 62,
+    "latency": 54,
+    "uptime": 94
+  },
+  {
+    "time": "2026-02-17T14:00:26.441Z",
+    "speed": 80,
+    "latency": 57,
+    "uptime": 96
+  },
+  {
+    "time": "2026-02-17T14:00:26.764Z",
+    "speed": 93,
+    "latency": 48,
+    "uptime": 96
+  },
+  {
+    "time": "2026-02-17T14:00:27.081Z",
+    "speed": 86,
+    "latency": 58,
+    "uptime": 92
+  },
+  {
+    "time": "2026-02-17T14:00:27.399Z",
+    "speed": 74,
+    "latency": 45,
+    "uptime": 92
+  },
+  {
+    "time": "2026-02-17T14:00:27.775Z",
+    "speed": 96,
+    "latency": 21,
+    "uptime": 95
+  }
+]

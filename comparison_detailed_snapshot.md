@@ -1,0 +1,224 @@
+- generic [ref=e3]:
+  - banner [ref=e4]:
+    - generic [ref=e5]:
+      - link "VPNSpan" [ref=e6] [cursor=pointer]:
+        - /url: /
+        - img [ref=e7]
+        - generic [ref=e14]: VPNSpan
+      - navigation [ref=e15]:
+        - link "Dashboard" [ref=e16] [cursor=pointer]:
+          - /url: /
+        - link "Find VPN" [ref=e17] [cursor=pointer]:
+          - /url: /find-vpn
+        - link "Compare" [ref=e18] [cursor=pointer]:
+          - /url: /comparison
+        - link "Blog" [ref=e19] [cursor=pointer]:
+          - /url: /blog
+        - link "About" [ref=e20] [cursor=pointer]:
+          - /url: /about
+  - main [ref=e21]:
+    - generic [ref=e22]:
+      - link "Back to Dashboard" [ref=e23] [cursor=pointer]:
+        - /url: /
+        - img [ref=e24]
+        - text: Back to Dashboard
+      - generic [ref=e26]:
+        - heading "VPN Comparison" [level=1] [ref=e27]
+        - paragraph [ref=e28]: Compare top VPN services across speed, privacy, streaming, and value
+      - generic [ref=e29]:
+        - heading "Select VPNs to Compare (max 5)" [level=3] [ref=e30]
+        - generic [ref=e31]:
+          - button "ExpressVPN ExpressVPN" [ref=e32] [cursor=pointer]:
+            - img "ExpressVPN" [ref=e33]
+            - generic [ref=e34]: ExpressVPN
+          - button "NordVPN NordVPN" [ref=e35] [cursor=pointer]:
+            - img "NordVPN" [ref=e36]
+            - generic [ref=e37]: NordVPN
+          - button "Surfshark Surfshark" [ref=e38] [cursor=pointer]:
+            - img "Surfshark" [ref=e39]
+            - generic [ref=e40]: Surfshark
+          - button "ProtonVPN ProtonVPN" [ref=e41] [cursor=pointer]:
+            - img "ProtonVPN" [ref=e42]
+            - generic [ref=e43]: ProtonVPN
+          - button "CyberGhost CyberGhost" [ref=e44] [cursor=pointer]:
+            - img "CyberGhost" [ref=e45]
+            - generic [ref=e46]: CyberGhost
+      - generic [ref=e47]:
+        - button "Radar Chart" [ref=e48] [cursor=pointer]
+        - button "Detailed Comparison" [active] [ref=e49] [cursor=pointer]
+      - table [ref=e169]:
+        - rowgroup [ref=e170]:
+          - row "Feature ExpressVPN NordVPN Surfshark" [ref=e171]:
+            - columnheader "Feature" [ref=e172]
+            - columnheader "ExpressVPN" [ref=e173]
+            - columnheader "NordVPN" [ref=e174]
+            - columnheader "Surfshark" [ref=e175]
+        - rowgroup [ref=e176]:
+          - row "Ratings (out of 5)" [ref=e177]:
+            - cell "Ratings (out of 5)" [ref=e178]
+          - row "speed 4.9 4.6 4" [ref=e179]:
+            - cell "speed" [ref=e180]
+            - cell "4.9" [ref=e181]
+            - cell "4.6" [ref=e182]
+            - cell "4" [ref=e183]
+          - row "stability 4.5 4.3 4" [ref=e184]:
+            - cell "stability" [ref=e185]
+            - cell "4.5" [ref=e186]
+            - cell "4.3" [ref=e187]
+            - cell "4" [ref=e188]
+          - row "privacy 4.9 4.8 4.3" [ref=e189]:
+            - cell "privacy" [ref=e190]
+            - cell "4.9" [ref=e191]
+            - cell "4.8" [ref=e192]
+            - cell "4.3" [ref=e193]
+          - row "streaming 4.9 4.6 4.4" [ref=e194]:
+            - cell "streaming" [ref=e195]
+            - cell "4.9" [ref=e196]
+            - cell "4.6" [ref=e197]
+            - cell "4.4" [ref=e198]
+          - row "value 3.5 4 4.9" [ref=e199]:
+            - cell "value" [ref=e200]
+            - cell "3.5" [ref=e201]
+            - cell "4" [ref=e202]
+            - cell "4.9" [ref=e203]
+          - row "support 4.8 4.5 4.2" [ref=e204]:
+            - cell "support" [ref=e205]
+            - cell "4.8" [ref=e206]
+            - cell "4.5" [ref=e207]
+            - cell "4.2" [ref=e208]
+          - row "Features" [ref=e209]:
+            - cell "Features" [ref=e210]
+          - row "Servers 3,000+ 5,500+ 3,200+" [ref=e211]:
+            - cell "Servers" [ref=e212]
+            - cell "3,000+" [ref=e213]
+            - cell "5,500+" [ref=e214]
+            - cell "3,200+" [ref=e215]
+          - row "Countries 94 60 100" [ref=e216]:
+            - cell "Countries" [ref=e217]
+            - cell "94" [ref=e218]
+            - cell "60" [ref=e219]
+            - cell "100" [ref=e220]
+          - row "Devices 8 6 Unlimited" [ref=e221]:
+            - cell "Devices" [ref=e222]
+            - cell "8" [ref=e223]
+            - cell "6" [ref=e224]
+            - cell "Unlimited" [ref=e225]
+          - row "Encryption AES-256-GCM AES-256-GCM AES-256-GCM" [ref=e226]:
+            - cell "Encryption" [ref=e227]
+            - cell "AES-256-GCM" [ref=e228]
+            - cell "AES-256-GCM" [ref=e229]
+            - cell "AES-256-GCM" [ref=e230]
+          - row "Kill Switch" [ref=e231]:
+            - cell "Kill Switch" [ref=e232]
+            - cell [ref=e233]:
+              - img [ref=e234]
+            - cell [ref=e236]:
+              - img [ref=e237]
+            - cell [ref=e239]:
+              - img [ref=e240]
+          - row "Split Tunneling" [ref=e242]:
+            - cell "Split Tunneling" [ref=e243]
+            - cell [ref=e244]:
+              - img [ref=e245]
+            - cell [ref=e247]:
+              - img [ref=e248]
+            - cell [ref=e250]:
+              - img [ref=e251]
+          - row "Ad Blocker" [ref=e253]:
+            - cell "Ad Blocker" [ref=e254]
+            - cell [ref=e255]:
+              - img [ref=e256]
+            - cell [ref=e259]:
+              - img [ref=e260]
+            - cell [ref=e262]:
+              - img [ref=e263]
+          - row "Double VPN" [ref=e265]:
+            - cell "Double VPN" [ref=e266]
+            - cell [ref=e267]:
+              - img [ref=e268]
+            - cell [ref=e271]:
+              - img [ref=e272]
+            - cell [ref=e274]:
+              - img [ref=e275]
+          - row "24/7 Support" [ref=e277]:
+            - cell "24/7 Support" [ref=e278]
+            - cell [ref=e279]:
+              - img [ref=e280]
+            - cell [ref=e282]:
+              - img [ref=e283]
+            - cell [ref=e285]:
+              - img [ref=e286]
+          - row "Money Back 30 days 30 days 30 days" [ref=e288]:
+            - cell "Money Back" [ref=e289]
+            - cell "30 days" [ref=e290]
+            - cell "30 days" [ref=e291]
+            - cell "30 days" [ref=e292]
+          - row "Pricing (USD)" [ref=e293]:
+            - cell "Pricing (USD)" [ref=e294]
+          - row "Monthly $12.95 $11.99 $15.95" [ref=e295]:
+            - cell "Monthly" [ref=e296]
+            - cell "$12.95" [ref=e297]
+            - cell "$11.99" [ref=e298]
+            - cell "$15.95" [ref=e299]
+          - row "Yearly $99.95 $59.99 $47.88" [ref=e300]:
+            - cell "Yearly" [ref=e301]
+            - cell "$99.95" [ref=e302]
+            - cell "$59.99" [ref=e303]
+            - cell "$47.88" [ref=e304]
+          - row "Cost per month $8.33 $5.00 $3.99" [ref=e305]:
+            - cell "Cost per month" [ref=e306]
+            - cell "$8.33" [ref=e307]
+            - cell "$5.00" [ref=e308]
+            - cell "$3.99" [ref=e309]
+      - generic [ref=e125]:
+        - link "Get ExpressVPN" [ref=e126] [cursor=pointer]:
+          - /url: https://www.expressvpn.com
+        - link "Get NordVPN" [ref=e127] [cursor=pointer]:
+          - /url: https://nordvpn.com
+        - link "Get Surfshark" [ref=e128] [cursor=pointer]:
+          - /url: https://surfshark.com
+  - contentinfo [ref=e129]:
+    - generic [ref=e130]:
+      - generic [ref=e131]:
+        - generic [ref=e132]: VPNSpan
+        - paragraph [ref=e133]: Real-time VPN Performance Monitoring
+      - generic [ref=e134]:
+        - generic [ref=e135]:
+          - heading "Navigation" [level=4] [ref=e136]
+          - link "Dashboard" [ref=e137] [cursor=pointer]:
+            - /url: /
+          - link "Compare" [ref=e138] [cursor=pointer]:
+            - /url: /comparison
+          - link "Blog" [ref=e139] [cursor=pointer]:
+            - /url: /blog
+          - link "About" [ref=e140] [cursor=pointer]:
+            - /url: /about
+        - generic [ref=e141]:
+          - heading "VPN Reviews" [level=4] [ref=e142]
+          - link "Surfshark" [ref=e143] [cursor=pointer]:
+            - /url: /reviews/surfshark
+          - link "ExpressVPN" [ref=e144] [cursor=pointer]:
+            - /url: /reviews/expressvpn
+          - link "NordVPN" [ref=e145] [cursor=pointer]:
+            - /url: /reviews/nordvpn
+          - link "ProtonVPN" [ref=e146] [cursor=pointer]:
+            - /url: /reviews/protonvpn
+          - link "CyberGhost" [ref=e147] [cursor=pointer]:
+            - /url: /reviews/cyberghost
+        - generic [ref=e148]:
+          - heading "Legal" [level=4] [ref=e149]
+          - link "Privacy Policy" [ref=e150] [cursor=pointer]:
+            - /url: /privacy
+          - link "Terms of Service" [ref=e151] [cursor=pointer]:
+            - /url: /terms
+          - link "Cookie Policy" [ref=e152] [cursor=pointer]:
+            - /url: /cookie-policy
+          - link "Affiliate Disclosure" [ref=e153] [cursor=pointer]:
+            - /url: /affiliate-disclosure
+    - generic [ref=e154]:
+      - paragraph [ref=e155]: © 2026 VPNSpan. All rights reserved.
+      - paragraph [ref=e156]: VPNSpan is an independent comparison platform. We may earn commissions from VPN services reviewed on this site.
+      - paragraph [ref=e157]:
+        - text: "Contact:"
+        - link "contact@vpnspan.com" [ref=e158] [cursor=pointer]:
+          - /url: mailto:contact@vpnspan.com
