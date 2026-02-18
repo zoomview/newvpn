@@ -47,37 +47,33 @@ su - deploy
 
 ## Step 2: Install Dependencies
 
-### 2.1 Install Node.js 18.x
+### 2.1 一次性安装所有依赖（推荐）
 
 ```bash
-# Install Node.js 18.x
+# 更新系统并安装所有需要的软件
+apt update && apt upgrade -y
+
+# 安装Node.js 18.x
 curl -fsSL https://deb.nodesource.com/setup_18.x | bash -
 apt install -y nodejs
 
-# Verify installation
+# 安装PM2（进程管理器）
+npm install -g pm2
+
+# 安装Nginx和Certbot（Web服务器+SSL证书）
+apt install -y nginx certbot python3-certbot-nginx
+
+# 验证安装
 node -v
 npm -v
+pm2 -v
+nginx -v
+certbot --version
 ```
 
-### 2.2 Install PM2 (Process Manager)
+### 2.2 分别安装（可选）
 
-```bash
-# Install PM2 globally
-sudo npm install -g pm2
-
-# Setup PM2 startup script
-pm2 startup
-```
-
-### 2.3 Install Nginx
-
-```bash
-# Install Nginx
-sudo apt install -y nginx
-
-# Check status
-sudo systemctl status nginx
-```
+如果上面命令有问题，可以分开执行：
 
 ### 2.4 Install Certbot (SSL)
 
