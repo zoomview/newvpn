@@ -36,3 +36,7 @@ coverage/
 # Misc
 *.tgz
 .cache
+
+# Docs (local only, not deployed)
+DEPLOYMENT_QA.md
+DEPLOYMENT_GUIDE.md
